@@ -23,9 +23,13 @@ header {
     border-bottom: 3px solid #170C31;
   }
 
-footer {
+  footer {
     padding: 2em;
     color: #F5F5F5;
     background-color:#170C31;
     border-radius: 25px;
+    text-align: center;
+}
+.byuilink {
+     color: #F5F5F5;;
 }
