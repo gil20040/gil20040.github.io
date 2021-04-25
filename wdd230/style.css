@@ -6,6 +6,11 @@ header {
     border-radius: 25px;
     font-size: 25px;
   }
+
+  header img {
+    float: right;
+    width: 200px;
+}
   h2{
     font-size:25px;
     border-bottom: 3px solid #170C31;
