@@ -1,0 +1,36 @@
+
+main {
+	max-width: 400px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+}
+h2 {
+    font-family: Audiowide, sans-serif;
+    font-size: 1.3em;
+}
+div {
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    background-color: #EBFFF5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+p,a {
+    font-family: Roboto, sans-serif;
+}
+a {
+    color: blue;
+}
+a:visited {
+    color: darkolivegreen;
+}
+a:hover {
+    color:grey;
+}
