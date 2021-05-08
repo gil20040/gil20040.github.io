@@ -5,4 +5,7 @@
         max-width: 900px;
 	}
 
+  nav ul { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
