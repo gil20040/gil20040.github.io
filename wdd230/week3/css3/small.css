@@ -73,12 +73,12 @@ nav a:hover {
 img {
 	max-width: 250px;
 }
-#firstfont {
+.firstfont {
 	font-family: 'Patua One', Impact;
 }
-#secondfont {
+.secondfont {
 	font-family: 'Merienda', cursive;
 }
-#thirdfont {
+.thirdfont {
 	font-family: 'Merriweather Sans', sans-serif;
 }
