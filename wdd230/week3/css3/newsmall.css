@@ -7,9 +7,9 @@ main {
 article {
 	margin: 0.5 rem;
     border: 1px solid #bbb;
-	padding: 5 rem;
-	background-color: #3B322C;
-    color: white;
+	padding: 0 1rem;
+	background-color: #E5D5C7;
+    color: #3B322C;
 }
 
 header,
@@ -31,7 +31,7 @@ footer {
 }
 
 nav {
-	background-color: #A7754D;
+	background-color: #3B322C;
 	text-align: center;
 }
 
