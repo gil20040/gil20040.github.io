@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -70,7 +74,7 @@ img {
 	max-width: 250px;
 }
 #firstfont {
-	font-family: 'Patua One', cursive;
+	font-family: 'Patua One', Impact;
 }
 #secondfont {
 	font-family: 'Merienda', cursive;
