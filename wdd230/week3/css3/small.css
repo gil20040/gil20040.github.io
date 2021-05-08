@@ -61,3 +61,10 @@ table, td, th {
 	width: 100%;
 	border-collapse: collapse;
   }
+.active {
+	color: orange;
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
