@@ -1,7 +1,7 @@
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 45em) {
 
   article {
-    padding: 10rem;
+    padding: 4rem;
     }
     img {
       max-width: 600px;
