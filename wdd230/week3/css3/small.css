@@ -5,9 +5,8 @@ main {
 }
 
 article {
-	margin: 0.5 rem;
     border: 1px solid #bbb;
-	padding: 0 1rem;
+	padding: 2rem;
 	background-color: #E5D5C7;
     color: #3B322C;
 }
