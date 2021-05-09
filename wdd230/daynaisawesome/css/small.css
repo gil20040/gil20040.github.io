@@ -6,6 +6,21 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 1rem;
 }
+header { 
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:#4B9CD3;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.5rem;
+
+
+}
+h1{
+    font-family: Audiowide, sans-serif;
+    font-size: 1.6em;
+}
+
 h2 {
     font-family: Audiowide, sans-serif;
     font-size: 1.3em;
@@ -13,8 +28,9 @@ h2 {
 div {
     margin: 0.5rem;
 	border: 1px solid #bbb;
-	padding: 0 1rem;
-    background-color: #4B9CD3;
+	padding: 1rem 1rem;
+    background-color: #E1E1E1;
+    border-radius: 8px;
 }
 
 img {
@@ -35,5 +51,5 @@ a:hover {
     color:grey;
 }
 #fourth {
-    grid-column: span 2;
+    grid-column: span 1.5;
 }
