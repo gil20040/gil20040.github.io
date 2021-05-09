@@ -15,17 +15,27 @@ header {
     text-align: center;
     border-radius: 8px;
     padding: 0.5rem;
-
-
+}
+footer {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:#4B9CD3;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.2rem;
 }
 h1{
-    font-family: "Permanent Marker", Audiowide, sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     font-size: 1.6em;
 }
 
 h2 {
     font-family: Audiowide, sans-serif;
     font-size: 1.3em;
+}
+h3 {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 1em;
 }
 div {
     margin: 0.5rem;
