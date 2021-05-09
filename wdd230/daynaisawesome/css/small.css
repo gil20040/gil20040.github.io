@@ -14,7 +14,7 @@ div {
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-    background-color: #EBFFF5;
+    background-color: #4B9CD3;
 }
 
 img {
@@ -35,5 +35,5 @@ a:hover {
     color:grey;
 }
 #fourth {
-    column-span: 1.5;
+    grid-column: span 2;
 }
