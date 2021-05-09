@@ -5,4 +5,11 @@
         max-width: 1200px;
 	}
 
+  div {
+    background-color: #E1E1E1;
+ }
+   header { 
+     background-color: #4B9CD3;
+     max-width: 1200px;
+ } 
 }
