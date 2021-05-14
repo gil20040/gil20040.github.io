@@ -17,6 +17,8 @@ header img {
     display: block;
     flex: 1 1 auto;
 }
-
+main {
+    margin: 40px;
+}
 
 }
