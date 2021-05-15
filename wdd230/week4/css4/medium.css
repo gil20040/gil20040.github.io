@@ -23,4 +23,11 @@ main {
 h2 {
     text-align: center;
 }
+
+footer {
+    margin: 40px;
+    border: 2px solid #B6B7B9;
+}
+
+
 }
