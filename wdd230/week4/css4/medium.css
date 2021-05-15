@@ -4,7 +4,9 @@ header {
     align-content: center;
 }
 header img {
-    width: 100px;
+    width: 75px;
+    height: 75px;
+    padding-top: 10px;
 }
 .navigation {
     display: flex;

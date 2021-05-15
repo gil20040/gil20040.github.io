@@ -3,7 +3,7 @@ function toggleMenu() {
 }
 
 function siteDate() {
-const datefield = document.querySelector("date");
+const datefield = document.querySelector("#date");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-us", { dateStyle: "full"}).format (now);
