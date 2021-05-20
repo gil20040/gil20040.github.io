@@ -1,26 +1,23 @@
-const input = document.querySelector('input');
+const fav = document.querySelector('#fav');
 const button = document.querySelector('button');
-const list = document.querySelector('ul');
+const output = document.querySelector('.list');
 
-
-button.addEventListener('click',function()) {
-    if (input.value != '') {
-        //create elements in the list list item and button
+  button.addEventListener('click', function() {
+    if (fav.value != '') {
+        //create elements in the list - list item and button
         let li = document.createElement('li');
         let deletebutton = document.createElement('button');
         //change properties
-        li.textContent = input.value;
+        li.textContent = fav.value;
         deletebutton.textContent = '❌';
         // add the button to the li
         li.append(deletebutton);
         output.append(li);
-        deletebutton.addEventListener('click',function()){
-            list.removeChild(li);
-            input.focus;
+        deletebutton.addEventListener('click',function() {
+            output.removeChild(li);
+            fav.focus;
+        });
+        fav.value = '';
+        fav.focus;
         }
-        input.value = '';
-        input.focus;
-        }
-
-
-}
+    });
