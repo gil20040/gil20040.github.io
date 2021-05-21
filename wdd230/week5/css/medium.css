@@ -1,7 +1,6 @@
 @media only screen and (min-width: 35em) {
-    header {
-        justify-content: center;
-        align-content: center;
+    h1 {
+        color: green;
     }
     header img {
         width: 75px;
@@ -20,11 +19,35 @@
         flex: 1 1 auto;
     }
     main {
-        margin: 40px;
+        margin: 20px;
     }
-    h2 {
-        text-align: center;
+ 
+    .herodiv {
+        margin: 100 px auto; 
     }
+
+    .herodiv img {
+        max-width: 70%;
+    }
+    .herodiv section {
+        top: 20%;
+        right: 20%;
+        padding: 20px;
+        font-size: .75rem; 
+         
+    }
+    .forecast {
+        display: block;
+        padding: 20px;
+        background-color: #85D0FF;
+        margin: 10px auto;
+        border: 2px solid #B6B7B9;
+    }
+    .fivedays ul li {
+        list-style-type: none;
+    }
+ 
+    
     
     footer {
         margin: 40px;
