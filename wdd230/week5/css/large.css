@@ -11,5 +11,8 @@
         padding: 35px;
         font-size: 1.2em; 
     }
+    .fivedays img { 
+        max-width: 8rem;
+    }
 
   }
