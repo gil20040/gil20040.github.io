@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+header {
+    background-color: #E6CAF7;
+    padding: 20px; 
+    display: flex;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+body { 
+    margin: 0;
+}
+nav {
+    background-color: #E6CAF7;
+}
+nav ul {
+	list-style-type: none;
+    text-align: center;
+    margin-block-start: auto;
+    padding: 0;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Merienda;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: "Patua One", Impact, Haettenschweiler;
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 2px solid #B6B7B9;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+nav a:hover {
+	background-color: #FCA500;
+}
+.responsive li {
+    display: block;
+}
+main {
+    margin: 20px;
+}
+.contentbox {
+    
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding: 20px;
+    background-color: #85D0FF;
+    color: black;
+    font-family: Merriweather Sans;
+}
+footer {
+    background-color: #E6CAF7;
+    padding: 20px; 
+    border-top: 2px solid #B6B7B9;
+    text-align: center;
+    font-family: Merriweather Sans;
+}
+h2 {
+    font-family: Merienda;
+}
+main {
+    font-family: "Merriweather Sans";
+}
+.m {
+    font-family: "Merriweather Sans";
+}

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 35em) {
+    header {
+        justify-content: center;
+        align-content: center;
+    }
+    header img {
+        width: 75px;
+        height: 75px;
+        padding-top: 10px;
+    }
+    .navigation {
+        display: flex;
+    }
+    
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    main {
+        margin: 40px;
+    }
+    h2 {
+        text-align: center;
+    }
+    
+    footer {
+        margin: 40px;
+        border: 2px solid #B6B7B9;
+    }
+    
+    
+    }
