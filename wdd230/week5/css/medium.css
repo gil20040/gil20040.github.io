@@ -42,10 +42,29 @@
         background-color: #85D0FF;
         margin: 10px auto;
         border: 2px solid #B6B7B9;
+        max-width: 68%;
     }
-    .fivedays ul li {
+    .fivedays {
+        display: flex;
+        align-content: center;
+        padding-left: 0px;
+    }
+ 
+    .fivedays img { 
+        max-width: 4rem;
+        align-content: center;
+    }
+    .fivedays li {
         list-style-type: none;
+        margin: auto;
     }
+    .fivedays h3 {
+        text-align: center;
+    }
+    .fivedays {
+        text-align: center;
+    }
+
  
     
     
