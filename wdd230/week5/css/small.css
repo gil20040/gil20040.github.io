@@ -30,8 +30,8 @@ nav {
 nav ul {
 	list-style-type: none;
     text-align: center;
-    margin-block-start: auto;
     padding: 0;
+
 }
 nav ul li a {
     color: black;
@@ -48,6 +48,8 @@ h1 {
 
 .navigation {
     list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     border-bottom: 2px solid #B6B7B9;
 }
@@ -86,7 +88,7 @@ main {
 	top: 20px;
 	right: 60px;
 	background-color: #85D0FF;
-	border: 1px solid #000;
+    border: 1px solid #B6B7B9;
 	padding: .8rem; 
     font-size: .6rem; 
 	box-shadow: 0 0 30px #333;
@@ -104,17 +106,17 @@ main {
     padding: 10px;
     background-color: #85D0FF;
     color: black;
-    font-family: Merriweather Sans;
+    font-family: "Merriweather Sans";
 }
 footer {
     background-color: #E6CAF7;
     padding: 20px; 
     border-top: 2px solid #B6B7B9;
     text-align: center;
-    font-family: Merriweather Sans;
+    font-family: "Merriweather Sans";
 }
 h2 {
-    font-family: Merienda;
+    font-family: "Patua One", Impact, Haettenschweiler;
     text-align: center;
 }
 main {
@@ -130,7 +132,7 @@ main {
     padding: 20px;
     background-color: #85D0FF;
     color: black;
-    font-family: Merriweather Sans;
+    font-family: "Merriweather Sans";
     text-align: center;
     max-width: 70%;
 }
@@ -147,10 +149,13 @@ main {
     padding: 20px;
     background-color: #85D0FF;
     color: black;
-    font-family: Merriweather Sans;
+    font-family: "Merriweather Sans";
     text-align: center;
     max-width: 70%;
 }
 #idmap {
     display: none;
+}
+h3 {
+    font-family: "Patua One", Impact, Haettenschweiler;
 }

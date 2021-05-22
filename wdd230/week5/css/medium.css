@@ -18,12 +18,16 @@
         display: block;
         flex: 1 1 auto;
     }
+    nav ul {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     main {
         margin: 20px;
     }
  
     .herodiv {
-        margin: 100 px auto; 
+        margin: auto; 
     }
 
     .herodiv img {
