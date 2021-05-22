@@ -18,6 +18,10 @@
         float:right;
         max-height: 150px;
     }
-
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        gap: 15px;
+    }
 
   }

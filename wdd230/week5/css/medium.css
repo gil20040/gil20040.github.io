@@ -77,5 +77,16 @@
         float:right;
         max-height: 200px;
     }
+    .contact {
+        display: grid;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    #idmap {
+        display: block;
+    }
+    #idmap img {
+        max-width: 100%;
+    }
     
     }

@@ -10,3 +10,4 @@ const fulldate = new Intl.DateTimeFormat("en-us", { dateStyle: "full"}).format (
 datefield.textContent = fulldate;
 }
 window.onload = siteDate;
+
