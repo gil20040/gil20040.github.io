@@ -14,5 +14,10 @@
     .fivedays img { 
         max-width: 8rem;
     }
+    .article img {
+        float:right;
+        max-height: 150px;
+    }
+
 
   }
