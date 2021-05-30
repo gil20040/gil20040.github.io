@@ -92,5 +92,12 @@
     #idmap img {
         max-width: 100%;
     }
+    li {
+        max-width: 130px;
+    }
+    ul.navigation {
+        align-content: center;
+        justify-content: center;
+    }
     
     }
