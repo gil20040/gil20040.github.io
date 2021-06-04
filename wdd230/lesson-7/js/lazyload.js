@@ -25,7 +25,7 @@ const imgObserver = new IntersectionObserver ((entries, imgObserver) => {
             preloadImage(entry.target);
             imgObserver.unobserve(entry.target);
         }
-    })
+    })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 },imgOptions);
 
 // go through each image
