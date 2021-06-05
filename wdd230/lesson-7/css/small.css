@@ -193,3 +193,6 @@ img[data-src] {
         filter: blur(0em);
         transition: filter 1s;
       }
+.lastVisit {
+    text-align: center;
+}
