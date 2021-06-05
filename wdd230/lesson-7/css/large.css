@@ -31,6 +31,18 @@
     li {
         max-width: 160px;
     }
-
+    .gallery {
+        grid-template-columns:1fr 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 2em;
+    }
+    .gallery img {
+        width: 360px;
+        height: 300px;
+    }
+    .gallery img:hover {
+        box-shadow: 0 0 0 1.5em #c0c0c0;
+        transition: .5s ease;
+    }
 
   }

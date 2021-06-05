@@ -1,34 +1,34 @@
-// get all imgs with data-src attribute
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+// select all the images to lazy load
+const images = document.querySelectorAll("[data-src]")
 
-// user parameters to determine when to load images
+// replacing src with data-src
+const preloadImage = (img) => {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = () => {
+      img.removeAttribute('data-src');
+    };
+  };
+
+  
+// when to load the images 
 const imgOptions = {
-    threshold: 1, 
-    rootMargin: "0px 0px -50px 0px"
+    threshold: 0, 
+    rootMargin: "0px 0px 10px 0px"
 };
 
-const loadImages = (image) => {
-    image.setAttributes('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
-};
+// magic 
+const imgObserver = new IntersectionObserver ((entries, imgObserver) => {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            preloadImage(entry.target);
+            imgObserver.unobserve(entry.target);
+        }
+    })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+},imgOptions);
 
-// check if intersection observer is supported 
-if ('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items, observer) = > {
-        items.forEach((item) => {
-
-
-
-
-        });
-    }, imgOptions);
-
-// loop through each img and check status and load if needed
-imagesToLoad.forEach((img) => {
-    imgObserver.observe(img);
-});
-}
-else { //just load all images if not supported
-    imagesToLoad.forEach((img) => {
-        loadImages(img);
-    });
+// go through each image
+images.forEach(image => {
+    imgObserver.observe(image);
+})

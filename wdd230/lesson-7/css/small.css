@@ -162,3 +162,34 @@ h3 {
 /* p.label, p.value {
     display: inline; 
 } */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: .5em;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+img[data-src] {
+    filter: blur(0.2em);
+      }
+      
+.gallery img {
+        width: 300px;
+        height: 175px;
+        filter: blur(0em);
+        transition: filter 1s;
+      }
