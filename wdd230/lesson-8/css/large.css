@@ -1,0 +1,48 @@
+@media only screen and (min-width: 75em) {
+    h1 {
+        color: blue;
+    }
+    nav ul {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .herodiv img {
+        max-width: 70%;
+    }
+
+    .herodiv section {
+        padding: 35px;
+        font-size: 1.2em; 
+    }
+    .fivedays img { 
+        max-width: 8rem;
+    }
+    .article img {
+        float:right;
+        max-height: 150px;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        gap: 15px;
+    }
+  
+    li {
+        max-width: 160px;
+    }
+    .gallery {
+        grid-template-columns:1fr 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 2em;
+    }
+    .gallery img {
+        width: 360px;
+        height: 300px;
+    }
+    .gallery img:hover {
+        box-shadow: 0 0 0 1.5em #c0c0c0;
+        transition: .5s ease;
+    }
+
+  }
