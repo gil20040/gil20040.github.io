@@ -110,5 +110,8 @@
     figure {
         max-width: 200;
     }
+    #thanks {
+        max-width: 80%;
+    }
     
     }

@@ -196,3 +196,35 @@ img[data-src] {
 .lastVisit {
     text-align: center;
 }
+#ratingvalue {
+	margin: 0 15px;
+	color: #2075ff;
+}
+legend  {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+#submit {
+    background-color: #000;
+    color: #fff;
+}
+fieldset {
+    margin: auto;
+    width: 50%;
+}
+form {
+    margin: auto;
+    width: 50%;
+}
+fieldset:nth-child(4) {
+    border: none;
+}   
+#thanks {
+    max-width: 100%;
+}
+#thanksbox {
+    text-align: center;
+}
+
+

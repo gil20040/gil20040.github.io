@@ -11,3 +11,6 @@ datefield.textContent = fulldate;
 }
 window.onload = siteDate;
 
+function adjustRating(rating) {
+document.getElementById("ratingvalue").innerHTML = rating;
+}
