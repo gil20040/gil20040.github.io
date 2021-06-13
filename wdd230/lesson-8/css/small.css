@@ -217,7 +217,7 @@ form {
     margin: auto;
     width: 50%;
 }
-fieldset:nth-child(4) {
+fieldset:nth-child(6) {
     border: none;
 }   
 #thanks {
@@ -225,6 +225,9 @@ fieldset:nth-child(4) {
 }
 #thanksbox {
     text-align: center;
+}
+img#stormpic {
+    display:none;
 }
 
 

@@ -44,5 +44,7 @@
         box-shadow: 0 0 0 1.5em #c0c0c0;
         transition: .5s ease;
     }
-
+    img#stormpic {
+        width: 417px;
+    }
   }

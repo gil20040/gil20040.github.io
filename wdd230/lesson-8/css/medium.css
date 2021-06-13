@@ -104,14 +104,25 @@
         row-gap: 1em;
     }
     .gallery img {
-        height: 140;
+        height: 140px;
         width: 250px;
     }
-    figure {
-        max-width: 200;
-    }
+ 
     #thanks {
         max-width: 80%;
     }
-    
+    #formgrid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    img#stormpic {
+        display:block;
+        grid-column: 2 / 3;
+        width: 300px;
+        height: 1000px;
+    }
+    form { 
+        grid-column: 3 / 4;
+    }
+
     }

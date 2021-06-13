@@ -38,36 +38,38 @@
     </nav>
 
     <main>
+        <div id="formgrid">
+         <img id = "stormpic" src="images/max-larochelle.jpg" alt="storm">
        <form>
-           <fieldset>
+           <fieldset class="user">
                <legend>User Info</legend>
                <p>
                <label for="fullname">Full Name* </label><br>
-                <input type="text" name="fullname" pattern="[A-Za-z]{5,}" required>
+                <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]{5,}" required>
                </p>
                <p>
                 <label for="email">Email </label><br>
-                 <input type="email" name="email" placeholder="storm@seidaho.com">
+                 <input type="email" id="email" name="email" placeholder="storm@seidaho.com">
                 </p>
                 <p>
                 <label for="phonenumber">Phone Number* </label><br>
-                 <input type="tel" name="phonenumber" required> 
+                 <input type="tel" id="phonenumber" name="phonenumber" required> 
                 </p>
                 <p>
                  <label for="zipcode">Zip Code* </label><br>
-                 <input type="number" name="zipcode" required>
+                 <input type="number" id="zipcode" name="zipcode" required>
                 </p>
             </fieldset>
             <br>
-            <fieldset>
+            <fieldset class="storm">
                 <legend>Storm Info</legend>
                 <p>
                 <label for="stormdate">Storm Date </label><br>
-                 <input type="date" name="stormdate">
+                 <input type="date" id="stormdate" name="stormdate">
                 </p>
                 <p>
                  <label for="stormtype">Storm Type</label><br>
-                 <input list="storm-types" name="stormtype" />
+                 <input list="storm-types" id="stormtype" name="stormtype" />
 
                    <datalist id="storm-types">
                     <option value="Flashflood">
@@ -79,7 +81,7 @@
                  </p>
                  <p>
                   <label class="slider" for="stormrating">Storm Severity &nbsp;&nbsp;</label> <br>
-                        <input type="range" name="stormrating" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <input type="range" id="stormrating" name="stormrating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                    
                     <datalist id="tickmarks">
@@ -97,8 +99,8 @@
                     </datalist>
                  </p>
                  <p>
-                    <label for="stormtype">Storm Region <br>
-                     <select name="stormregion" id="region">
+                    <label for="stormregion">Storm Region <br>
+                     <select name="stormregion" id="stormregion">
                        <option value="">Please Select</option>
                        <option value="preston">Preston</option>
                        <option value="sodasprings">Soda Springs</option>
@@ -107,7 +109,7 @@
                      </label>
                     </p>
                 <p>
-                    <label for="userindanger">User In Danger</label>
+                    <p>User In Danger</p>
                     <div>
                         <input type="radio" id="yes" name="userindanger" value="yes" checked>
                         <label for="yes">Yes</label>
@@ -120,18 +122,22 @@
                         <input type="radio" id="no" name="userindanger" value="no" checked>
                         <label for="no">No</label>
                     </div>
-                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Additional Comments</legend>
                 <p>
                     <label for="comments">Additional Comments</label><br>
-                    <textarea id="comments" name="comments" rows="5">
+                    <textarea id="comments" name="comments" rows="10">
                     </textarea>
                 </p>
              </fieldset>
              <fieldset id="button">
              <input type="submit" id="submit" value="Send Storm Information"
-             onclick="window.open('http://www.google.com')" / target="_blank">
+             onclick="window.open('https://gil20040.github.io/wdd230/lesson-8/thanks.html')">
              </fieldset>
        </form>
+        </div>
 
     </main>
 
