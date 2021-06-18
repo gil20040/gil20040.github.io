@@ -1,0 +1,56 @@
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #eee;
+}
+
+
+
+footer {
+    border-top: 1px solid #555;
+}
+
+.cards {
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+section {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+section img {
+    max-width: 85%;
+}
+
+@media only screen and (min-width: 32em) {
+.cards {
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 40px;
+}
+
+}
+
+@media only screen and (min-width: 75em) {
+.cards {
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding-left: 0px;
+    padding-right:0px;
+    gap: 20px;
+}
+
+}
