@@ -1,0 +1,23 @@
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #eee;
+}
+
+
+
+footer {
+    border-top: 1px solid #555;
+}
+
+main {
+    align-content: center;
+    justify-content: center;
+}
+
