@@ -47,4 +47,17 @@
     img#stormpic {
         width: 417px;
     }
+    div.towns {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.towns h3 {
+        font-size: 1em;
+    }
+    div.towns p {
+        font-size: .9em;
+    }
+    div.towns section {
+        display:block;
+    }
+
   }

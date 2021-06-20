@@ -229,7 +229,40 @@ fieldset:nth-child(6) {
 img#stormpic {
     display:none;
 }
-.homeherodiv {
+.homehero {
+    text-align: center;
+}
+.homehero img {
+    width: 80%;
+}
+.towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+}
+div.towns {
+    display: grid;
+    grid-gap: 1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+div.towns section {
+    background-color:#E6CAF7;
+}
+div.towns img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+div.towns h3 {
+    font-size: .8em;
+    font-style: italic;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: normal;
+}
+div.towns p {
+    font-size: .7em;
     text-align: center;
 }
 

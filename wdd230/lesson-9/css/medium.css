@@ -124,5 +124,25 @@
     form { 
         grid-column: 3 / 4;
     }
+    div.towns {
+        grid-template-columns: 1fr;
+    }
+    div.towns h3 {
+        font-size: .9em;
+    }
+    div.towns p {
+        font-size: .8em;
+    }
+    div.towns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.towns section:nth-child(odd) img{
+        grid-column: 2;
+      }
+    div.towns section:nth-child(odd) .data {
+        grid-column: 1;
+        grid-row: 1;
+      }
 
     }
