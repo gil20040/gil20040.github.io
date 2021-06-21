@@ -24,6 +24,7 @@ fetch(requestURL)
         let p3 = document.createElement('p');
 
         let divi = document.createElement('div');
+        divi.className = 'cimg'
         let img = document.createElement('img');
 
         
