@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>The best site for local events and food in Southeast Idaho</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Everything you want to know about Preston, Idaho including the 5 day weather forecast, information about a new local restaurant and our office contact and location information">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css"> 
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/windchill.js"></script>
+</head>
+<body>
+    <aside id = "banner">
+        🥞 Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 🥞
+    </aside>
+    <header>
+        <img src="images/icons8-kawaii-french-fries-50.png" alt="Fry logo">
+        <section class="headings">
+            <h1>It's Fryday Idaho</h1>
+            <div class="m">All about local food & fun</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-7.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <!--<img id = "town" src="images/town.jpg" alt="Preston downtown"> -->
+            <picture>
+                <source srcset = "images/sun800.jpg" media = "(min-width: 1000px)">
+                <source srcset = "images/sun600.jpg" media = "(min-width: 800px)">
+                <source srcset = "images/sun400.jpg" media = "(min-width: 600px)">
+                <img src = "images/sun250.jpg" alt = "Sunshine">
+           </picture>
+            <section class="weather">
+                <h3>Weather Summary</h3>
+                <p>Currently:Cloudy</p>
+                <p>Temperature: <span id = "temp">25<span> &#176; F</p> 
+                <p>Humidity: 54%</p> 
+                <p>Wind Speed: <span id = "windspeed">4</span> mph</p>
+                <p>Wind Chill: <span id = "windchill"> </span></p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h2>5 Day Forecast</h2>
+            <ul class = "fivedays">
+                <li>
+                    <h3>Fri</h3>
+                    <img alt = "Sunny" src = "https://img.icons8.com/plasticine/100/000000/smiling-sun.png">
+                    <p>82 &#176; F</p>
+                </li>
+                <li>
+                    <h3>Sat</h3>
+                    <img alt = "Rainy" src="https://img.icons8.com/plasticine/100/000000/rain.png">
+                    <p>79 &#176; F</p>
+                </li>
+                <li>
+                    <h3>Sun</h3>
+                    <img alt = "Windy" src="https://img.icons8.com/plasticine/100/000000/windy-weather.png">
+                    <p>72 &#176; F</p>
+                </li>
+                <li>
+                    <h3>Mon</h3>
+                    <img alt = "Sunny" src = "https://img.icons8.com/plasticine/100/000000/smiling-sun.png">
+                    <p>83 &#176; F</p>
+                </li>
+                <li>
+                    <h3>Tue</h3>
+                    <img alt = "Rainy" src="https://img.icons8.com/plasticine/100/000000/rain.png">
+                    <p>76 &#176; F</p>
+                </li>
+            </ul>
+        </div>    
+        <div class="article">
+            <img alt = "food" src = "images/alexandra-andersson-XNM9O4Kfy2o-unsplash-smallerer.jpg">
+            <h2>Potato Ur Way is now Open</h2>
+            <p id = "author">by Chef Curry</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus cum exercitationem id autem, quaerat animi voluptas sint officiis veritatis incidunt recusandae fuga, facilis nesciunt hic odio delectus impedit quod.</p>
+        </div>
+        <div class="contact">
+            <div id = "idmap"><img alt = "id map" src = "images/map.jpg"></div>
+            <div id = "details">
+            <h3>It's Fryday Idaho</h3>
+            <p>1447 E 800<br>
+            Preston, ID 83263</p>
+            <p>&#128222; 123-456-7890</p>
+            <p>&#9993; localfun@frydayid.com</p>
+            <p>
+            <img alt = "facebook" src = "images/icons8-facebook-16.png">
+            <img alt = "instagram" src = "images/icons8-instagram-16.png">
+            <img alt = "facebook messenger" src = "images/icons8-facebook-messenger-16.png">
+            <img alt = "whatsapp" src = "images/icons8-whatsapp-16.png">
+            </p> </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; It's Fryday ID! | Attributions | Stephen Giles
+        <br>
+        <span id="date"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap'); */
+
+header {
+    background-color: #E6CAF7;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+header img {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+body { 
+    margin: 0;
+}
+aside {
+    display: none;
+    background-color: #85D0FF;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #E6CAF7;
+}
+nav ul {
+	list-style-type: none;
+    text-align: center;
+    padding: 0;
+
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Merienda;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: "Patua One", Impact, Haettenschweiler;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-bottom: 2px solid #B6B7B9;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+nav a:hover {
+	background-color: #FCA500;
+}
+nav .active {
+    background-color: #85D0FF ;
+}
+.responsive li {
+    display: block;
+}
+main {
+    margin: 10px;
+}
+
+.herodiv {
+    margin: 10px auto; 
+    position: relative;
+}
+
+.herodiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.herodiv section {
+    position: absolute;
+	top: 10px;
+	right: 60px;
+	background-color: #85D0FF;
+    border: 1px solid #B6B7B9;
+	padding: .4rem; 
+    font-size: .5rem; 
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+}
+.forecast {
+    display: none;
+}
+
+.contentbox {
+    
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding: 10px;
+    background-color: #85D0FF;
+    color: black;
+    font-family: "Merriweather Sans";
+}
+footer {
+    background-color: #E6CAF7;
+    padding: 20px; 
+    border-top: 2px solid #B6B7B9;
+    text-align: center;
+    font-family: "Merriweather Sans";
+}
+h2 {
+    font-family: "Patua One", Impact, Haettenschweiler;
+    text-align: center;
+}
+main {
+    font-family: "Merriweather Sans";
+}
+.m {
+    font-family: "Merriweather Sans";
+}
+.article {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding: 20px;
+    background-color: #85D0FF;
+    color: black;
+    font-family: "Merriweather Sans";
+    text-align: center;
+    max-width: 70%;
+}
+.article img {
+    max-width:80%;
+}
+.article p {
+    font-size: .75rem;
+}
+.contact {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding: 20px;
+    background-color: #85D0FF;
+    color: black;
+    font-family: "Merriweather Sans";
+    text-align: center;
+    max-width: 70%;
+}
+#idmap {
+    display: none;
+}
+h3 {
+    font-family: "Patua One", Impact, Haettenschweiler;
+}
+/* p.label, p.value {
+    display: inline; 
+} */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: .5em;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+img[data-src] {
+    filter: blur(0.2em);
+      }
+      
+.gallery img {
+        width: 300px;
+        height: 175px;
+        filter: blur(0em);
+        transition: filter 1s;
+      }
+.lastVisit {
+    text-align: center;
+}
+#ratingvalue {
+	margin: 0 15px;
+	color: #2075ff;
+}
+legend  {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+#submit {
+    background-color: #000;
+    color: #fff;
+}
+fieldset {
+    margin: auto;
+    width: 50%;
+}
+form {
+    margin: auto;
+    width: 50%;
+}
+fieldset:nth-child(6) {
+    border: none;
+}   
+#thanks {
+    max-width: 100%;
+}
+#thanksbox {
+    text-align: center;
+}
+img#stormpic {
+    display:none;
+}
+.homehero {
+    text-align: center;
+}
+.homehero img {
+    width: 80%;
+}
+.towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+}
+div.towns {
+    display: grid;
+    grid-gap: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+div.towns section {
+    background-color:#E6CAF7;
+}
+div.towns img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+div.towns h3 {
+    font-size: .8em;
+    font-style: italic;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: normal;
+}
+div.towns p {
+    font-size: .7em;
+    text-align: center;
+}
+
+
+
