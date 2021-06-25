@@ -267,4 +267,6 @@ div.towns p {
 }
 
 
-
+#current-desc {
+     text-transform: capitalize; 
+}

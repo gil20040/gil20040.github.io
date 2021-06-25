@@ -13,6 +13,7 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/banner.js"></script>
     <script defer src="js/windchill.js"></script>
+    <script defer src="js/preston.js"></script>
 </head>
 <body>
     <aside id = "banner">
@@ -30,7 +31,7 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="preston-7.html" class="active">Preston</a></li>
+            <li><a href="preston-10.html" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -50,11 +51,11 @@
            </picture>
             <section class="weather">
                 <h3>Weather Summary</h3>
-                <p>Currently:Cloudy</p>
-                <p>Temperature: <span id = "temp">25<span> &#176; F</p> 
-                <p>Humidity: 54%</p> 
-                <p>Wind Speed: <span id = "windspeed">4</span> mph</p>
-                <p>Wind Chill: <span id = "windchill"> </span></p>
+                <p>Currently: <span id = "current-desc"></span></p>
+                <p>Temperature: <span id = "current-temp"></span>&deg; F</p> 
+                <p>Humidity: <span id = "current-humidity"></span> %</p> 
+                <p>Wind Speed: <span id = "current-windspeed"></span> mph</p>
+                <p>Wind Chill: <span id = "current-windchill"></span></p>
             </section>
         </div>
         <div class="forecast">

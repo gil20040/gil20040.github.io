@@ -1,14 +1,6 @@
-function inputoutput() {
-    let intemp = parseFloat(document.getElementById('temp').textContent);
-    let inwindspeed = parseFloat(document.getElementById('windspeed').textContent);
-    
-    let windChillFinal = windChill(intemp, inwindspeed);
-        document.getElementById('windchill').innerHTML = windChillFinal
-}
-
 function windChill(intemp, inwindspeed) {
          if (intemp > 50 || inwindspeed < 3) {
-        return 'no chill';
+        return 'None';
 }
         return ( (Math.round(parseFloat(
                 35.74 + 0.6215 * 
@@ -17,5 +9,4 @@ function windChill(intemp, inwindspeed) {
                 0.4275 * intemp * 
                 Math.pow(inwindspeed,0.16)))))
     }
-window.onload = inputoutput;
 
