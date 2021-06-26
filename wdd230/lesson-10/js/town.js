@@ -32,7 +32,7 @@ fetch(requestURL)
         h3.textContent = mytowns[i].motto;
         p.textContent = 'Year Founded:' + ' ' + mytowns[i].yearFounded;
         p2.textContent = 'Population:' + ' ' + mytowns[i].currentPopulation;
-        p3.textContent = 'Annual Rain Fall:' + ' ' + mytowns[i].averageRainfall;
+        p3.textContent = 'Annual Rain Fall:' + ' ' + mytowns[i].averageRainfall + ' ' + 'in';
         img.setAttribute('src', `images/${mytowns[i].photo}`); 
 
         divd.append(h2);
