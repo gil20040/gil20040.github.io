@@ -41,34 +41,31 @@
          
     }
     .forecast {
-        display: block;
-        padding: 20px;
-        background-color: #85D0FF;
         margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 10px;
+        gap: 10px;
+        background-color: #85D0FF;
         border: 2px solid #B6B7B9;
-        max-width: 68%;
+        max-width: 70%;
     }
-    .fivedays {
-        display: flex;
-        align-content: center;
-        padding-left: 0px;
+    #topcast {
+        grid-row: 1 / 2;
+        grid-column: 1 / 6;
     }
- 
-    .fivedays img { 
-        max-width: 4rem;
-        align-content: center;
-    }
-    .fivedays li {
-        list-style-type: none;
-        margin: auto;
-    }
-    .fivedays h3 {
+
+    .forecast section {
+        background-color: #E6CAF7;
+        border: 1px solid #B6B7B9;
         text-align: center;
+        grid-row: 2 / 3;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .fivedays {
-        text-align: center;
+    section img {
+        max-width: 85%;
     }
-  
     
     footer {
         margin: 40px;
@@ -90,7 +87,7 @@
         display: block;
     }
     #idmap img {
-        max-width: 100%;
+        max-width: 300px;
     }
     li {
         max-width: 130px;
