@@ -9,11 +9,12 @@
 
     .herodiv img {
         max-width: 70%;
+        height: 20rem;
     }
 
     .herodiv section {
-        padding: 35px;
-        font-size: 1.2em; 
+        padding: .8rem;
+        font-size: 1em; 
     }
     .article img {
         float:right;
