@@ -37,6 +37,7 @@ const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473
 
             top.textContent = final;
             mid.setAttribute('src', imagesrc);
+            mid.setAttribute('alt', filtered[i].weather[0].description)
             bot.textContent = Math.round(filtered[i].main.temp) + '° F';
 
     
