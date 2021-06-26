@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=0ca82fb87bacbf2e586fa24d94b111c9&units=imperial"; 
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=0ca82fb87bacbf2e586fa24d94b111c9&units=imperial"; 
 
         fetch(apiURL)
         .then((response) => response.json())
@@ -11,7 +11,7 @@ const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=
             document.getElementById('current-windchill').textContent = windChill(jsObject.main.temp,jsObject.wind.speed);
         });
 
-const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=0ca82fb87bacbf2e586fa24d94b111c9&units=imperial";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=0ca82fb87bacbf2e586fa24d94b111c9&units=imperial";
 
         fetch(forecastURL)
          .then(function (response) {
