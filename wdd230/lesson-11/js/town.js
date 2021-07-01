@@ -34,6 +34,7 @@ fetch(requestURL)
         p2.textContent = 'Population:' + ' ' + mytowns[i].currentPopulation;
         p3.textContent = 'Annual Rain Fall:' + ' ' + mytowns[i].averageRainfall + ' ' + 'in';
         img.setAttribute('src', `images/${mytowns[i].photo}`); 
+        img.setAttribute('alt',mytowns[i].name)
 
         divd.append(h2);
         divd.append(h3);
