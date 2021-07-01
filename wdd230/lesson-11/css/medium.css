@@ -1,0 +1,144 @@
+@media only screen and (min-width: 35em) {
+    h1 {
+        color: green;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+        padding-top: 0px;
+    }
+    .navigation {
+        display: flex;
+    }
+    
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    main {
+        margin: 20px;
+    }
+ 
+    .herodiv {
+        margin: auto; 
+    }
+
+    .herodiv img {
+        max-width: 70%;
+        height: 15rem;
+    }
+    .herodiv section {
+        top: 10%;
+        right: 18%;
+        padding: .6rem;
+        font-size: .8rem; 
+         
+    }
+    .forecast {
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 10px;
+        gap: 10px;
+        background-color: #85D0FF;
+        border: 2px solid #B6B7B9;
+        max-width: 70%;
+    }
+    #topcast {
+        grid-row: 1 / 2;
+        grid-column: 1 / 6;
+    }
+
+    .forecast section {
+        background-color: #E6CAF7;
+        border: 1px solid #B6B7B9;
+        text-align: center;
+        grid-row: 2 / 3;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .forecast section img {
+        max-width: 85%;
+    }
+    
+    footer {
+        margin: 40px;
+        border: 2px solid #B6B7B9;
+    }
+    .article p {
+        font-size: 1rem;
+    }
+    .article img {
+        float:right;
+        max-height: 200px;
+    }
+    .contact {
+        display: grid;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    #idmap {
+        display: block;
+    }
+    #idmap img {
+        max-width: 300px;
+    }
+    li {
+        max-width: 130px;
+    }
+    ul.navigation {
+        align-content: center;
+        justify-content: center;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1em;
+    }
+    .gallery img {
+        height: 140px;
+        width: 250px;
+    }
+ 
+    #thanks {
+        max-width: 80%;
+    }
+    #formgrid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    img#stormpic {
+        display:block;
+        grid-column: 2 / 3;
+        width: 300px;
+        height: 1000px;
+    }
+    form { 
+        grid-column: 3 / 4;
+    }
+    div.towns h3 {
+        font-size: .9em;
+    }
+    div.towns p {
+        font-size: .8em;
+    }
+    div.towns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    div.towns section:nth-child(odd) div.cimg{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+      }
+    div.towns section:nth-child(odd) div.details {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+    }

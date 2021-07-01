@@ -1,0 +1,61 @@
+@media only screen and (min-width: 75em) {
+    h1 {
+        color: blue;
+    }
+    nav ul {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .herodiv img {
+        max-width: 70%;
+        height: 20rem;
+    }
+
+    .herodiv section {
+        padding: .8rem;
+        font-size: 1rem; 
+    }
+    .article img {
+        float:right;
+        max-height: 150px;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        gap: 15px;
+    }
+  
+    li {
+        max-width: 160px;
+    }
+    .gallery {
+        grid-template-columns:1fr 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 2em;
+    }
+    .gallery img {
+        width: 360px;
+        height: 300px;
+    }
+    .gallery img:hover {
+        box-shadow: 0 0 0 1.5em #c0c0c0;
+        transition: .5s ease;
+    }
+    img#stormpic {
+        width: 417px;
+    }
+    div.towns {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.towns h3 {
+        font-size: 1em;
+    }
+    div.towns p {
+        font-size: .9em;
+    }
+    div.towns section {
+        display:block;
+    }
+
+  }
