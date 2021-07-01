@@ -269,3 +269,9 @@ div.towns p {
 #current-desc {
      text-transform: capitalize; 
 }
+
+.social {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
