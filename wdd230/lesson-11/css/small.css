@@ -283,3 +283,15 @@ div.towns p {
     height: 20px;
     padding: 10px;
 }
+
+div.events {
+    display: block;
+    background-color: #E6CAF7;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding: 20px;
+    color: black;
+    font-family: "Merriweather Sans";
+    text-align: center;
+    max-width: 67%;
+}

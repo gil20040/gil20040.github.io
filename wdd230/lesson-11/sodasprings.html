@@ -4,7 +4,7 @@
     <title>The best site for local events and food in Southeast Idaho</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Everything you want to know about Preston, Idaho including the current weather, a 5 day weather forecast, information about a new local restaurant, local events and our office contact and location information">
+    <meta name="description" content="Everything you want to know about Soda Springs, Idaho including the current weather, a 5 day weather forecast, information about a new local soda shop opening, local events and our office contact and location information">
     <meta http-equiv="Cache-Control" content="public, max-age=3600, must-revalidate" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
@@ -12,16 +12,12 @@
     <link rel="stylesheet" href="css/medium.css"> 
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/script.js"></script>
-    <script defer src="js/banner.js"></script>
     <script defer src="js/windchill.js"></script>
-    <script defer src="js/preston.js"></script>
-    <script defer src="js/pevents.js"></script>
+    <script defer src="js/springs.js"></script>
+    <script defer src="js/sevents.js"></script>
     <Cache-Control: max-age=31536000></Cache-Control:>
 </head>
 <body>
-    <aside id = "banner">
-        🥞 Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 🥞
-    </aside>
     <header>
         <picture>
         <source srcset = "images/icons8-kawaii-french-fries-100.png" media = "(min-width: 550px)">
@@ -37,8 +33,8 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="preston.html" class="active">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html"  class="active">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
@@ -46,12 +42,12 @@
     </nav>
 
     <main>
-        <h2>Preston Idaho</h2>
+        <h2>Soda Springs Idaho</h2>
         <div class="herodiv">
             <picture>
-                <source srcset = "images/alex-bertha-7VAXeUIn3tI-unsplash-newl.jpg" media = "(min-width: 800px)">
-                <source srcset = "images/alex-bertha-7VAXeUIn3tI-unsplash-newm.jpg" media = "(min-width: 550px)">
-                <img src = "images/alex-bertha-7VAXeUIn3tI-unsplash-news.jpg" alt = "Preston mountains">
+                <source srcset = "images/danny-grizzle-tScMDgYvB-k-unsplash-newl.jpg" media = "(min-width: 800px)">
+                <source srcset = "images/danny-grizzle-tScMDgYvB-k-unsplash-newm.jpg" media = "(min-width: 550px)">
+                <img src = "images/danny-grizzle-tScMDgYvB-k-unsplash-news.jpg" alt = "Rocky mountains">
            </picture>
             <section class="weather">
                 <h3>Weather Summary</h3>
@@ -66,15 +62,15 @@
             <h2 id = "topcast">5 Day Forecast</h2>
         </div>
         <div class="article">
-            <img alt = "food" src = "images\alexandra-andersson-XNM9O4Kfy2o-unsplash-m.jpg">
-            <h2>Potato Ur Way is now Open</h2>
-            <p id = "author">by Chef Curry</p>
+            <img alt = "soda" src = "images/fernando-andrade-NfaZjll9-8g-unsplash (1).jpg">
+            <h2>Springs of Soda is Open</h2>
+            <p id = "author">by Mr. Fry</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus cum exercitationem id autem, quaerat animi voluptas sint officiis veritatis incidunt recusandae fuga, facilis nesciunt hic odio delectus impedit quod.</p>
         </div>
         <div class="events">
         </div>
         <div class="contact">
-            <div id = "idmap"><img alt = "id map" src = "images/map.jpg"></div>
+            <div id = "idmap"><img alt = "id map" src = "images/sodaspringsmap.jpg"></div>
             <div id = "details">
             <h3>It's Fryday Idaho</h3>
             <p>1447 E 800<br>
@@ -92,9 +88,6 @@
 
     <footer>
         &copy;2021 | It's Fryday ID! | Stephen Giles 
-        <br>
-        Weather information provided by <a href = "https://openweathermap.org/api" rel="noopener" target = _blank>Open Weather Map</a>
-        <br>
         <span id="date"></span>
     </footer>
 </body>
