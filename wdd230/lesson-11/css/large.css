@@ -1,7 +1,5 @@
 @media only screen and (min-width: 75em) {
-    h1 {
-        color: blue;
-    }
+
     nav ul {
         padding-left: 100px;
         padding-right: 100px;

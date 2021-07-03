@@ -18,11 +18,15 @@ fetch(requestURL)
     let p3 = document.createElement('p');
     let p4 = document.createElement('p');
 
+    let motto = document.createElement('p')
+
     h2.textContent = mytowns[0].name + ' ' + 'Events' + ' ' + '📅';
     p.textContent = mytowns[0].events[2];
     p2.textContent = mytowns[0].events[3];
     p3.textContent = mytowns[0].events[0];
     p4.textContent = mytowns[0].events[1];
+
+    motto.textContent = mytowns[0].motto;
 
     divd.append(h2);
     divd.append(p);
@@ -32,5 +36,6 @@ fetch(requestURL)
 
     document.querySelector('div.events').append(divd);
   
+    document.querySelector('div.motto').append(motto);
   });
   

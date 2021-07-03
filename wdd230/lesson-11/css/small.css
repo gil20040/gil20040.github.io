@@ -296,3 +296,14 @@ div.events {
     text-align: center;
     max-width: 67%;
 }
+
+#top {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #B6B7B9;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #85D0FF;
+    text-align: center;
+    max-width: 67%;
+}
