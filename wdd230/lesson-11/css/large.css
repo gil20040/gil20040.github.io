@@ -22,8 +22,14 @@
     }
     .contact {
         display: grid;
-        grid-template-columns: 1fr 1fr;   
+        grid-template-columns: 1fr 1fr 1fr 1fr;   
         gap: 15px;
+    }
+    div#idmap {
+        grid-column: 2 / 3;
+    }
+    div#details {
+        grid-column: 3 / 4;
     }
   
     li {

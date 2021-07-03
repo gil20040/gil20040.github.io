@@ -18,9 +18,9 @@ fetch(requestURL)
     let p3 = document.createElement('p');
 
     h2.textContent = mytowns[0].name + ' ' + 'Events' +' '+ '📅';
-    p.textContent = mytowns[0].events[0];
-    p2.textContent = mytowns[0].events[1];
-    p3.textContent = mytowns[0].events[2];
+    p.textContent = mytowns[0].events[1];
+    p2.textContent = mytowns[0].events[2];
+    p3.textContent = mytowns[0].events[0];
 
     divd.append(h2);
     divd.append(p);

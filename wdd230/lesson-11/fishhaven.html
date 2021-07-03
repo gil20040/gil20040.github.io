@@ -4,7 +4,7 @@
     <title>The best site for local events and food in Southeast Idaho</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Everything you want to know about Preston, Idaho including the current weather, a 5 day weather forecast, information about a new local restaurant, local events and our office contact and location information">
+    <meta name="description" content="Everything you want to know about Soda Springs, Idaho including the current weather, a 5 day weather forecast, information about a new local soda shop opening, local events and our office contact and location information">
     <meta http-equiv="Cache-Control" content="public, max-age=3600, must-revalidate" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
@@ -12,16 +12,12 @@
     <link rel="stylesheet" href="css/medium.css"> 
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/script.js"></script>
-    <script defer src="js/banner.js"></script>
     <script defer src="js/windchill.js"></script>
-    <script defer src="js/preston.js"></script>
-    <script defer src="js/pevents.js"></script>
+    <script defer src="js/fish.js"></script>
+    <script defer src="js/fevents.js"></script>
     <Cache-Control: max-age=31536000></Cache-Control:>
 </head>
 <body>
-    <aside id = "banner">
-        🥞 Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 🥞
-    </aside>
     <header>
         <picture>
         <source srcset = "images/icons8-kawaii-french-fries-100.png" media = "(min-width: 550px)">
@@ -37,21 +33,21 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Preston</h2>
+        <h2>Fish Haven</h2>
         <div class="herodiv">
             <picture>
-                <source srcset = "images/alex-bertha-7VAXeUIn3tI-unsplash-newl.jpg" media = "(min-width: 800px)">
-                <source srcset = "images/alex-bertha-7VAXeUIn3tI-unsplash-newm.jpg" media = "(min-width: 550px)">
-                <img src = "images/alex-bertha-7VAXeUIn3tI-unsplash-news.jpg" alt = "Preston mountains">
+                <source srcset = "images/rebecca-hansen-CzSEYWg7i78-unsplash-l.jpg" media = "(min-width: 800px)">
+                <source srcset = "images/rebecca-hansen-CzSEYWg7i78-unsplash-m.jpg" media = "(min-width: 550px)">
+                <img src = "images/rebecca-hansen-CzSEYWg7i78-unsplash-s.jpg" alt = "Rocky mountains">
            </picture>
             <section class="weather">
                 <h3>Weather Summary</h3>
@@ -66,10 +62,10 @@
             <h2 id = "topcast">5 Day Forecast</h2>
         </div>
         <div class="article">
-            <img alt = "food" src = "images\alexandra-andersson-XNM9O4Kfy2o-unsplash-m.jpg">
-            <h2>Potato Ur Way is now Open</h2>
-            <p id = "author">by Chef Curry</p>
-            <p>Who doesn't love Potatos? We have got Potatos and we make them anyway you want them fried, mashed, baked and in any shape you want.  We also have all different kinds of sauces so Potatos your way is the place for you to get your potatoes cooked and topped with whatever you want.  We only use fresh Idaho spuds and we want you and your buds to come check us out.</p>
+            <img alt = "Rasberry shake" src = "images/dennis-klein-8oIo60aLztg-unsplash (1) (1).jpg">
+            <h2>Shakes on the Lake Grand Opening</h2>
+            <p id = "author">by Miss Hall</p>
+            <p>Shakes on the Lake is now open.  Have you ever been on the North Beach with a craving for a Rasberry (or any flavor) shake and didn't want to leave the beach and lose your parking spot?  That is why the owners of Shakes on a Lake created their new store that will bring their delicious shakes right to you, you don't even have to leave the beach!  Order in the app, text or call and you will be enjoying your time on the sand with a ice cold shake in no time.</p>
         </div>
         <div class="events">
         </div>
@@ -92,9 +88,6 @@
 
     <footer>
         &copy;2021 | It's Fryday ID! | Stephen Giles 
-        <br>
-        Weather information provided by <a href = "https://openweathermap.org/api" rel="noopener" target = _blank>Open Weather Map</a>
-        <br>
         <span id="date"></span>
     </footer>
 </body>
