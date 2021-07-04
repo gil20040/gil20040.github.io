@@ -116,9 +116,10 @@
         width: 300px;
         height: 1000px;
     }
-    form { 
+    /* form { 
         grid-column: 3 / 4;
     }
+    */
     div.towns h3 {
         font-size: .9em;
     }
@@ -138,4 +139,15 @@
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
+      #newstorm {
+        grid-template-columns: 1fr 1fr;
+        column-gap:0;
+        grid-template-rows: 1fr 1fr;
+    }
+    #usertwo {
+        grid-column: 1 / 2;
+    }
+    #stormtwo {
+        grid-column: 2 / 3;
+    }
     }

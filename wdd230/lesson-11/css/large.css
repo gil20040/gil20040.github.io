@@ -61,5 +61,10 @@
     div.towns section {
         display:block;
     }
+    #newstorm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
   }

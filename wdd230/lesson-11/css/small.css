@@ -205,9 +205,6 @@ img[data-src] {
 	margin: 0 15px;
 	color: #2075ff;
 }
-#submit {
-    background-color:#85D0FF;
-}
 #thanks {
     max-width: 100%;
 }
@@ -296,8 +293,26 @@ div.events {
     text-align: center;
     max-width: 67%;
     }
-    form {
-        margin: auto;
-        display: block;
-        width: 55%;
-    }
+
+
+fieldset {
+    background-color: #85D0FF;
+    border: 2px solid #B6B7B9;
+    padding: 10px;
+}
+#huser {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#submit {
+    background-color:chartreuse;
+    display: block;
+    border: 2px solid #B6B7B9;
+    width: 200px;
+}
+form {
+    margin: auto;
+    display: block;
+    max-width: 50%;
+}
+

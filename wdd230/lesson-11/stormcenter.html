@@ -40,13 +40,13 @@
     <main>
         <div id="formgrid">
          <img id = "stormpic" src="images/max-larochelle.jpg" alt="storm">
-       <form>
+       <form method="get" action="thanks.html">
+           <h3 id = "huser">User Info</h3>
            <fieldset class="user">
-               <legend>User Info</legend>
-               <p>
-               <label for="fullname">Full Name* </label><br>
-                <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]{5,}" required>
-               </p>
+               <!-- <legend>User Info</legend> -->
+               <label for="fullname">Full Name*<br>
+                <input type="text" id="fullname" name="fullname" pattern="[a-zA-Z\s]{5,}" required>
+                </label>
                <p>
                 <label for="email">Email </label><br>
                  <input type="email" id="email" name="email" placeholder="storm@seidaho.com">
@@ -61,8 +61,9 @@
                 </p>
             </fieldset>
             <br>
+            <h3 id = "huser">Storm Info</h3>
             <fieldset class="storm">
-                <legend>Storm Info</legend>
+                <!-- <legend>Storm Info</legend> -->
                 <p>
                 <label for="stormdate">Storm Date </label><br>
                  <input type="date" id="stormdate" name="stormdate">
@@ -124,18 +125,14 @@
                     </div>
             </fieldset>
             <br>
-            <fieldset>
-                <legend>Additional Comments</legend>
-                <p>
+            <fieldset class="comments">
                     <label for="comments">Additional Comments</label><br>
                     <textarea id="comments" name="comments" rows="10">
                     </textarea>
-                </p>
              </fieldset>
-             <fieldset id="button">
-             <input type="submit" id="submit" value="Send Storm Information"
-             onclick="window.open('https://gil20040.github.io/wdd230/lesson-8/thanks.html')">
-             </fieldset>
+             <br>
+             <button type="submit" id="submit">Send Storm Information</button>
+             
        </form>
         </div>
 
