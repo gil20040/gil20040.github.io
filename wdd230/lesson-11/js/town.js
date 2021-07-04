@@ -6,11 +6,10 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    // console.table(jsonObject);  // temporary checking for valid response and data parsing
  
     const towns = jsonObject['towns'];
     const mytowns = towns.filter(towns => towns.name == "Fish Haven" || towns.name == "Soda Springs" || towns.name == "Preston");
-    //console.log(mytowns);
+  
 
     for (let i = 0; i < mytowns.length; i++ ) {
         let card = document.createElement('section');

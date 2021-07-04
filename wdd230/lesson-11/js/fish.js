@@ -21,8 +21,7 @@ const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010
 
         
          const filtered = jsObject.list.filter(a => a.dt_txt.includes(`18:00:00`));
-         // console.table(filtered);
-
+         
          for (let i = 0; i < filtered.length; i++ ) {
             let card = document.createElement('section');
             let top = document.createElement('h3');
