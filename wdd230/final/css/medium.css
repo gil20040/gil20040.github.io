@@ -1,0 +1,36 @@
+@media only screen and (min-width: 35em) {
+
+    .navigation {
+        display: flex;
+    }
+    
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+    }
+    #pinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: .5em;
+    }
+ #current {
+     grid-column: 1 / 2;
+     grid-row: 1 / 2;
+     margin: 0px;
+     padding: 0px;
+ }
+ #fun {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+ }
+
+
+}
