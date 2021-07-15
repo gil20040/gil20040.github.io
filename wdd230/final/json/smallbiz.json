@@ -1,0 +1,70 @@
+{
+  "smallbizfood": [
+  { 
+    "bizname": "Bok Bok Chicken",
+	"phone": "801-691-0921",
+	"address": "1181 N Canyon Rd",
+	"website": "https://www.facebook.com/bokbokutah/",
+	"imageurl": "images/bokbok.jpg"
+  },
+  {
+	"bizname": "Communal",
+	"phone": "801-373-8000",
+	"address": "102 N University Ave",
+	"website": "https://www.communalrestaurant.com/",
+	"imageurl": "images/communal.jpg"
+   },
+   {
+     "bizname": "Block Restaurant",
+	 "phone": "801-885-7558",
+	 "address": "3330 N University Ave",
+	 "website": "https://www.blockrestaurantgroup.com/contact/",
+	 "imageurl": "images/block.jpg"
+	},
+	{
+	 "bizname": "Gurus",
+	 "phone": "801-375-4878",
+	 "address": "45 E Center St",
+	 "website": "https://guruscafe.com/",
+	 "imageurl": "images/gurus.jpg"
+	},
+	{
+	 "bizname": "Good Move Cafe",
+	 "phone": "801-850-9113",
+	 "address": "1 E Center St",
+	 "website": "https://goodmovecafe.com/",
+	 "imageurl": "images/goodmove.jpg"
+	},
+	{
+	 "bizname": "Cubby's",
+	 "phone": "801-919-3023",
+	 "address": "1258 N State St",
+	 "website": "https://cubbys.co/",
+	 "imageurl": "images/cubbys.jpg"
+	},
+	{
+	 "bizname": "Hruska's Kolaches",
+	 "phone": "801-623-3578",
+	 "address": "434 W center St",
+	 "website": "http://hruskaskolaches.com/",
+	 "imageurl": "images/hruskas.jpg"
+	},
+	{
+	 "bizname": "Molly's",
+	 "phone": "801-374-3256",
+	 "address": "765 W COlumbia Ln",
+	 "website": "https://www.marvellouscatering.com/molly-s",
+	 "imageurl": "images/mollys.jpg"
+	},
+	{
+	 "bizname": "Hungary Hawaiian",
+	 "phone": "801-607-1927",
+	 "address": "180 N University Ave",
+	 "website": "https://hungryhawaiian.com/",
+	 "imageurl": "images/hawaiian.jpg"
+	 }
+	]
+   }
+	
+	
+  
