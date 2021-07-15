@@ -25,6 +25,7 @@ fetch(requestURL)
   p.textContent =  foodbiz[i].phone;
   p.textContent =  foodbiz[i].address;
   p.textContent =  foodbiz[i].website;
+  //right here need to work on image and append everything
   img.setAttribute('src', `images/${mytowns[i].photo}`); 
 
   divd.append(h2);
