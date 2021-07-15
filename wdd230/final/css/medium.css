@@ -24,13 +24,31 @@
  #current {
      grid-column: 1 / 2;
      grid-row: 1 / 2;
-     margin: 0px;
-     padding: 0px;
+     min-width: 275px;
+ }
+ #current img{
+      width: 250px;
  }
  #fun {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    min-width: 275px;
  }
+ #fun img{
+     width: 250px;
+ }
+ #history {
+     grid-column: 1 / 3;
+     grid-row: 2 / 3;
+ }
+ #history img{
+     width: 370px;
+ }
+#weekly ul {
+    text-align: center;
+    font-size: 1.2em;
+    list-style: none;
+}
 
 
 }

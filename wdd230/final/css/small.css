@@ -55,14 +55,15 @@ nav .active {
     color: white;
 }
 #history, #current, #fun {
-    width: 75%;
+    width: 90%;
     margin: auto;
     margin-top: 7px;
-    margin-bottom:7px;
+    margin-bottom:12px;
     border: solid 2px #86BBD8;
     padding: .3em;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
 }
 #current img {
     border-radius: 8px;
@@ -84,4 +85,41 @@ h2 {
     text-align: left;
     color: #3E517A
 }
+#weekly {
+    border-radius: 8px;
+    width: 90%;
+    background-color:#86BBD8;
+    border: solid 2px #3E517A;
+    margin: auto;
+    box-shadow: 5px 5px 10px #3E517A;
+    padding: .3em;
+    color: black;
+    margin-bottom:12px;
+}
+#weekly h2 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+#weekly ul {
+    list-style-type: square;
+    padding: 1em;
+}
+footer {
+    background-color:#3E517A;
+    padding:10px;
+    border-top: 2px solid #3E517A;
+}
+footer p {
+    color: white;
+    margin-left: 5%;
+    display: inline;
+}
+footer a {
+    color: white;
+    display: inline;
+    float: right;
+    font-family: "Open Sans";
+}
+
 

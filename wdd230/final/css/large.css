@@ -2,16 +2,30 @@
 
     #pinfo {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
  #current {
      grid-column: 1 / 2;
+     min-width: 380px;
  }
  #fun {
     grid-column: 2 / 3;
+    min-width: 380px;
  }
  #history {
     grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    min-width: 380px;
  }
+
+#current img{
+     width: 370px;
+}
+
+#fun img{
+    width: 370px;
+}
+
 
 
 
