@@ -12,7 +12,7 @@ fetch(requestURL)
   console.log(foodbiz);
 
   for (let i = 0; i < foodbiz.length; i++ ) {
-  let card = document.createElement('section');
+  let divd = document.createElement('div');
 
   let h2 = document.createElement('h2');
   let i = document.createElement('img');
@@ -20,25 +20,30 @@ fetch(requestURL)
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
 
+  console.log(foodbiz[i].bizname);
   
   h2.textContent = foodbiz[i].bizname;
-  p.textContent =  foodbiz[i].phone;
-  p.textContent =  foodbiz[i].address;
-  p.textContent =  foodbiz[i].website;
+  console.log(foodbiz[i].bizname);
+ // img.setAttribute('src', foodbiz[i].imageurl); 
+  // img.setAttribute('alt',foodbiz[i].bizname)
+  p.textContent = foodbiz[i].phone;
+  p.textContent = foodbiz[i].address;
+  p.textContent = foodbiz[i].website;
   //right here need to work on image and append everything
-  img.setAttribute('src', `images/${mytowns[i].photo}`); 
+  //img.setAttribute('src', `images/${mytowns[i].photo}`); 
 
+ 
   divd.append(h2);
-  divd.append(h3);
+  divd.append(img);
   divd.append(p);
   divd.append(p2);
   divd.append(p3);
 
-  divi.append(img);
+  //divi.append(img);
 
-  card.appendChild(divd);
-  card.appendChild(divi);
+  //card.appendChild(divd);
+  //card.appendChild(divi);
 
-  document.querySelector('div.towns').append(card);
-
+  document.querySelector('div.food').append(divd);
+  }
 });
