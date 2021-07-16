@@ -121,5 +121,19 @@ footer a {
     float: right;
     font-family: "Open Sans";
 }
-
-
+.food section{
+    border-radius: 8px;
+    width: 85%;
+    padding: .3em;
+    border: solid 2px #3E517A;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+}
+.food section img {
+    width: 200px;
+    height: 150px;
+}

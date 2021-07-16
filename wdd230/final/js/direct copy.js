@@ -12,7 +12,7 @@ fetch(requestURL)
   console.log(foodbiz);
 
   for (let i = 0; i < foodbiz.length; i++ ) {
-  let card = document.createElement('section');
+  let divd = document.createElement('div');
 
   let h2 = document.createElement('h2');
   let img = document.createElement('img');
@@ -26,15 +26,21 @@ fetch(requestURL)
   p.textContent = foodbiz[i].phone;
   p2.textContent = foodbiz[i].address;
   p3.textContent = foodbiz[i].website;
+  //right here need to work on image and append everything
+  //img.setAttribute('src', `images/${mytowns[i].photo}`); 
+
  
+  divd.append(h2);
+  divd.append(img);
+  divd.append(p);
+  divd.append(p2);
+  divd.append(p3);
 
+  //divi.append(img);
 
-  card.appendChild(h2);
-  card.appendChild(img);
-  card.appendChild(p);
-  card.appendChild(p2);
-  card.appendChild(p3);
+  //card.appendChild(divd);
+  //card.appendChild(divi);
 
-  document.querySelector('div.food').append(card);
+  document.querySelector('div.food').append(divd);
   }
 });

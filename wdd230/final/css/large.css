@@ -1,9 +1,13 @@
 @media only screen and (min-width: 75em) {
 
-    #pinfo {
+    ul.navigation {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+#pinfo {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-    }
+}
  #current {
      grid-column: 1 / 2;
      min-width: 380px;
@@ -25,11 +29,15 @@
 #fun img{
     width: 370px;
 }
-
-
-
-
-
+.food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80%;
+    margin: auto;
+}
+.food p {
+    font-size: .9em;
+}
 
 
 

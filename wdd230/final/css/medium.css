@@ -1,5 +1,11 @@
 @media only screen and (min-width: 35em) {
-
+    header{
+        font-size: 1.2rem;
+    }
+    ul.navigation {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .navigation {
         display: flex;
     }
@@ -49,6 +55,17 @@
     font-size: 1.2em;
     list-style: none;
 }
-
+.food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+    margin: auto;
+}
+.food section{
+    min-width: 240px;
+}
+.food p {
+    font-size: .7rem;
+}
 
 }
