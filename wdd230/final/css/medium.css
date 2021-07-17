@@ -68,4 +68,27 @@
     font-size: .7rem;
 }
 
+.foodlist section{
+    border-radius: 8px;
+    width: 85%;
+    padding: .3em;
+    border: solid 2px #3E517A;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+}
+.buttons {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+button:active {
+    background-color: #F6AE2D;
+}
+
+
 }

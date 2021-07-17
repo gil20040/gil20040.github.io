@@ -20,7 +20,11 @@ fetch(requestURL)
   let p = document.createElement('p');
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
+
   let h3 = document.createElement('p');
+  let p4 = document.createElement('p');
+  let p5 = document.createElement('p');
+  let p6 = document.createElement('p');
   
   h2.textContent = foodbiz[i].bizname;
   img.setAttribute('src', foodbiz[i].imageurl); 
@@ -28,6 +32,11 @@ fetch(requestURL)
   p.textContent = foodbiz[i].phone;
   p2.textContent = foodbiz[i].address;
   p3.textContent = foodbiz[i].website;
+
+  h3.textContent = foodbiz[i].bizname;
+  p4.textContent = foodbiz[i].phone;
+  p5.textContent = foodbiz[i].address;
+  p6.textContent = foodbiz[i].website;
  
 
   card.appendChild(h2);
@@ -36,7 +45,14 @@ fetch(requestURL)
   card.appendChild(p2);
   card.appendChild(p3);
 
+  card2.appendChild(h3)
+  card2.appendChild(p4);
+  card2.appendChild(p5);
+  card2.appendChild(p6);
+
 
   document.querySelector('div.food').append(card);
+
+  document.querySelector('div.foodlist').append(card2);
   }
 });

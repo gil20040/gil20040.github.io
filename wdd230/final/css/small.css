@@ -49,10 +49,13 @@ ul {
 }
 nav a:hover {
 	background-color: #0FFF95;
+    border: solid 2px white;
+    color: black;
 }
 nav .active {
     background-color: #F6AE2D;
     color: white;
+    border: solid 2px #86BBD8
 }
 #history, #current, #fun {
     width: 90%;
@@ -136,4 +139,10 @@ footer a {
 .food section img {
     width: 200px;
     height: 150px;
+}
+.foodlist {
+    display: none;
+}
+.buttons {
+    display:none;
 }

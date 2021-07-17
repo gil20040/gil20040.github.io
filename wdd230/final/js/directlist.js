@@ -1,4 +1,4 @@
-const requestURL = 'json/smallbiz.json';
+  const requestURL = 'json/smallbiz.json';
   
 fetch(requestURL)
 .then(function (response) {
@@ -12,35 +12,25 @@ fetch(requestURL)
   console.log(foodbiz);
 
   for (let i = 0; i < foodbiz.length; i++ ) {
-  let divd = document.createElement('div');
+  let card2 = document.createElement('section');
 
-  let h2 = document.createElement('h2');
-  let img = document.createElement('img');
   let p = document.createElement('p');
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
+  let h3 = document.createElement('p');
   
-  h2.textContent = foodbiz[i].bizname;
-  img.setAttribute('src', foodbiz[i].imageurl); 
-  img.setAttribute('alt',foodbiz[i].bizname);
+
   p.textContent = foodbiz[i].phone;
   p2.textContent = foodbiz[i].address;
   p3.textContent = foodbiz[i].website;
-  //right here need to work on image and append everything
-  //img.setAttribute('src', `images/${mytowns[i].photo}`); 
-
+  h3.textContent = foodbiz[i].bizname;
  
-  divd.append(h2);
-  divd.append(img);
-  divd.append(p);
-  divd.append(p2);
-  divd.append(p3);
 
-  //divi.append(img);
+  card2.appendChild(h3);
+  card2.appendChild(p);
+  card2.appendChild(p2);
+  card2.appendChild(p3);
 
-  //card.appendChild(divd);
-  //card.appendChild(divi);
-
-  document.querySelector('div.food').append(divd);
+  document.querySelector('div.food').append(card2);
   }
 });
