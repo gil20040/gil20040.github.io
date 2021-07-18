@@ -13,18 +13,17 @@ fetch(requestURL)
 
   for (let i = 0; i < foodbiz.length; i++ ) {
   let card = document.createElement('section');
-  let card2 = document.createElement('section');
 
   let h2 = document.createElement('h2');
   let img = document.createElement('img');
   let p = document.createElement('p');
   let p2 = document.createElement('p');
   let p3 = document.createElement('p');
-  let h3 = document.createElement('p');
   
   h2.textContent = foodbiz[i].bizname;
   img.setAttribute('src', foodbiz[i].imageurl); 
   img.setAttribute('alt',foodbiz[i].bizname);
+  img.setAttribute('id','foodimg')
   p.textContent = foodbiz[i].phone;
   p2.textContent = foodbiz[i].address;
   p3.textContent = foodbiz[i].website;

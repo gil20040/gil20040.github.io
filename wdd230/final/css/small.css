@@ -44,9 +44,6 @@ nav ul li a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-ul {
-    padding-inline-start: 10px;
-}
 nav a:hover {
 	background-color: #0FFF95;
     border: solid 2px white;
@@ -54,8 +51,9 @@ nav a:hover {
 }
 nav .active {
     background-color: #F6AE2D;
-    color: white;
-    border: solid 2px #86BBD8
+    color:black;
+    border: solid 2px #86BBD8;
+    font-weight: bold;
 }
 #history, #current, #fun {
     width: 90%;
@@ -132,7 +130,6 @@ footer a {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 10px #3E517A;
 }
@@ -142,4 +139,75 @@ footer a {
 }
 .buttons {
     display:none;
+}
+
+#us {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+#us img {
+    display: none;
+}
+.emp{ 
+    border-radius: 8px;
+    padding: .3em;
+    border: solid 2px #86BBD8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+}
+.sechd {
+    border-radius: 8px;
+    border: solid 2px #3E517A;
+    background-color: #86BBD8;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A; 
+}
+#map iframe {
+    width: 250px; 
+    height: 187px;
+}
+#contactmap {
+    border-radius: 8px;
+    padding: .3rem;
+    border: solid 2px #86BBD8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+    max-width: 80%;
+}
+.simpleformfield {
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px #3E517A;
+    border: solid 2px #86BBD8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+input[type="text"],
+  input[type="phone"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    font-size: 1em;
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+  }
+fieldset button {
+    background-color: #0FFF95;
+}
+.sechd h2 {
+    text-align: center;
 }

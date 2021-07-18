@@ -38,9 +38,18 @@
 .food p {
     font-size: .9em;
 }
-
-
-
-
+#map iframe {
+    width: 600px; 
+    height: 450px;
+}
+#contactmap {
+    width: 70%;
+}
+.sechd {
+    width: 60%;
+}
+#ctinfo {
+    font-size: 1.5rem;
+}
 
 }

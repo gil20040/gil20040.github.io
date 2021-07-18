@@ -77,5 +77,30 @@
 button:active {
     background-color: #F6AE2D;
 }
-
+#us {
+    max-width: 80%;
+    margin: auto;
 }
+#us img {
+    display: block;
+    padding: 1rem;
+}
+.sechd {
+    width: 70%;
+}
+#contactmap {
+    display:flex;
+}
+#ctinfo {
+    margin: auto;
+}
+#map {
+    margin: auto;
+}
+#ctinfo {
+    font-size: 1.2rem;
+}
+.simpleformfield {
+    width: 80%;
+}
+

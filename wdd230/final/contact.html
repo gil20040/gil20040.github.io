@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Provo Chamber of Commerce Contact page">
+    <title>Provo Small Business Food Directory</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css"> 
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+      <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="provo.html" >Provo</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>PCOC - Contact us</h1>
+        <img src="images/craig-merrill-lyisaIv5ERQ-unsplash-smaller.jpg" height="200px" alt="Provo Mountains">
+      </header>
+    <main>
+     <form method = "get" action= "">
+      <fieldset class = "simpleformfield">
+        <h2>We would love to hear from you!</h2>
+        <p>
+          <label for="first name">First Name
+          <br>
+          <input type="text" name="fname" pattern="[a-zA-Z\s]{2,}" required>
+        </label>
+        </p>
+        <p>
+          <label for="last name">Last Name
+          <br>
+          <input type="text" name="lname" pattern="[a-zA-Z\s]{2,}" required>
+        </label>
+        </p>
+        <p>
+          <label for="phone">Phone</label>
+          <br>
+          <input type="phone" name="phone" placeholder="###-###-####">
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <br>
+          <input type="email" name="email" placeholder="user@email.org">
+        </p>
+        <p>
+          <label for="comments">Comments
+          <br>
+          <textarea rows = "5"></textarea>
+        </label>
+        </p>
+        <button class="submit"id="submit">Submit</button>
+      </fieldset>
+    </form>
+  
+      <div class = "sechd">
+        <h2>Meet Our Team</h2>
+      </div>
+      <section id = "us">
+        <div class = "emp">
+          <img src = "images/person1.jpg" class = "bimg" alt = "founder">
+          <h3>Michelle Donavan</h3>
+          <p>Founder & Chairman</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person2.jpg" class = "bimg" alt = "ceo">
+          <h3>Tina O'Neal</h3>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person3.jpg" class = "bimg" alt = "coo">
+          <h3>Conely Royce</h3>
+          <p>Chief Operating Officer</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person4.jpg" class = "bimg" alt = "cfo">
+          <h3>Gobert Clarkson</h3>
+          <p>Chief Financial Officer</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person5.jpg" class = "bimg" alt = "picsum">
+          <h3>Jordan Derrick</h3>
+          <p>Chief Technology Officer</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person6.jpg" class = "bimg" alt = "picsum">
+          <h3>Hughes Forest</h3>
+          <p>Chief Outreach Officer</p>
+        </div>
+        <div class = "emp">
+          <img src = "images/person7.jpg" class = "bimg" alt = "picsum">
+          <h3>Morgan Ingles</h3>
+          <p>General Council</p>
+        </div>
+      </section>
+
+      <div id = "contactmap">
+        <div id = "map">
+          <iframe title = "provo map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39579.16120164952!2d-111.65009003847435!3d40.24289799299153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1626549000848!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id = "ctinfo">
+          <h3>Contact us</h3>
+          <p>320 W 500 N <br> Provo, UT 84601</p>
+          <p>📱 801-801-8010 <br> 📧 pcoc@provo.org</p>
+          <p>
+            <a href = "http://www.linkedin.com"><img src = "images/freeiconslinkedin2.png" alt = "linkedin icon" width="48px" height="48px"></a>
+            <a href = "http://www.facebook.com"><img src = "images/freeiconsfb2.png" alt = "facebook icon" width="48px" height="48px"></a>
+          </p>
+        </div>
+      </div>
+ 
+    </main>
+    <footer>
+      <p>Website Powered by WLG &copy;2021</p><a href="#" class="inline">Attributions</a>
+    </footer>
+</body>
+</html>
