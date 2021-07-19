@@ -125,7 +125,7 @@ footer a {
 .food section{
     border-radius: 8px;
     width: 85%;
-    padding: .3em;
+    padding: .3em .3em 1em .3em;
     border: solid 2px #3E517A;
     margin: auto;
     margin-top: 10px;
@@ -148,9 +148,7 @@ footer a {
     justify-content: center;
     align-content: space-evenly;
 }
-#us img {
-    display: none;
-}
+
 .emp{ 
     border-radius: 8px;
     padding: .3em;
@@ -199,6 +197,7 @@ footer a {
 input[type="text"],
   input[type="phone"],
   input[type="email"],
+  input[type="tel"],
   textarea {
     width: 90%;
     font-size: 1em;
@@ -210,4 +209,22 @@ fieldset button {
 }
 .sechd h2 {
     text-align: center;
+}
+
+.personal, .business, .membership{
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px #3E517A;
+    border: solid 2px #86BBD8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sitelinks {
+        background-color: #0FFF95;
+        color: black;
+        padding: .3em .3em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: solid #86BBD8;
 }

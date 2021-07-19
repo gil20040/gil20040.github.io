@@ -56,7 +56,7 @@
     list-style: none;
 }
 .food {
-    display: block;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 90%;
     margin: auto;
@@ -64,10 +64,6 @@
 .food section{
     min-width: 240px;
 }
-.food p {
-    font-size: .7rem;
-}
-
 .buttons {
     display: block;
     text-align: center;
@@ -103,4 +99,16 @@ button:active {
 .simpleformfield {
     width: 80%;
 }
-
+#forms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#personal {
+    grid-column: 1 / 2;
+}
+#business {
+    grid-column: 2 / 3;
+}
+#membership {
+    grid-column: 1 / 3;
+}

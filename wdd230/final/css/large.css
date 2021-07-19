@@ -35,9 +35,6 @@
     max-width: 80%;
     margin: auto;
 }
-.food p {
-    font-size: .9em;
-}
 #map iframe {
     width: 600px; 
     height: 450px;

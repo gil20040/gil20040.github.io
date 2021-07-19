@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Provo Chamber of Commerce Contact page">
+    <title>Provo Chamber of Commerce - Join Us</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css"> 
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+      <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="provo.html" >Provo</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>PCOC - Join Us</h1>
+        <img src="images/craig-merrill-lyisaIv5ERQ-unsplash-smaller.jpg" height="200" alt="Provo Mountains">
+      </header>
+    <main>
+     <form method = "get" id = "forms" action= "thanks.html">
+      <div id = "personal">
+      <fieldset class = "personal">
+        <h2>Let stay in touch.</h2>
+        <p>
+          <label for="firstname">First Name *
+          <br>
+          <input type="text" id = "firstname" name="fname" pattern="[a-zA-Z\s]{2,}" required>
+        </label>
+        </p>
+        <p>
+          <label for="lastname">Last Name *
+          <br>
+          <input type="text" id = "lastname" name="lname" pattern="[a-zA-Z\s]{2,}" required>
+        </label>
+        </p>
+        <p>
+          <label for="title">Title
+          <br>
+          <input type="text" id="title" name="title">
+        </label>
+        </p>
+        <p>
+          <label for="email">Email *
+          <br>
+          <input type="email" id="email" name="email" placeholder="user@email.org" required>
+        </label>
+       </p>
+        <p>
+          <label for="cellphone">Cell Phone
+          <br>
+          <input type="tel" id="cellphone" name="cellphone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </label>
+      </p>
+      </fieldset>
+      </div>
+
+      <div id = "business">
+      <fieldset class = "business">
+      <h2>Tell us about your business.</h2>
+      <p>
+        <label for="bizname">Business Name *
+        <br>
+        <input type="text" id="bizname" name="bizname" required>
+      </label>
+      </p>
+      <p>
+        <label for="bizaddress">Business Address
+        <br>
+        <input type="text" id="bizaddress" name="bizaddress">
+      </label>
+      </p>
+      <p>
+        <label for="bizwebsite">Business Website
+        <br>
+        <input type="text" id="bizwebsite" name="bizwebsite">
+      </label>
+      </p> 
+      <p>
+          <label for="bizdescription">Business Description
+          <br>
+          <textarea rows = "5" id="bizdescription"></textarea>
+        </label>
+        </p>
+      </fieldset>
+      </div>
+
+      <div id = "membership">
+        <fieldset class = "membership">
+          <h2>Join the team - Please select a Membership Level *</h2>
+          <div>
+            <p>
+              <input type="radio" id = "Non-Profit" name="membership" value="Non-Profit" checked>
+              <label for="Non-Profit">Non-Profit ($100) - This is our most basic membership, perfect for start-ups and non-profits.  You get access to our monthly newsletter, quarterly meetings, a listing in our business directory and 10 minutes annually to meet with an experienced mentor to discuss your business.</label>
+            </p>
+          </div>
+          <div>
+            <p>
+              <input type="radio" id = "bronze" name="membership" value="bronze">
+              <label for="bronze">Bronze ($200) - Step up to even more with bronze membership.  You get access to everything included in our basic membership as well as two free lunches after our quarterly meetings, an annual social media post on our channel of your choice, an annual advertisement in our newsletter and two 20 minute sessions a year with an experienced mentor to help grow your business.</label>
+            </p>
+          </div>
+          <div>
+            <p>
+              <input type="radio" id = "silver" name="membership" value="silver">
+              <label for="silver">Silver ($400) - Now things are getting serious with the Silver membership.  You get access to everything included in the Non-profit and Bronze memberships as well as even more.  You get four free lunches after our quarterly meetings, two social media posts on our channel of your choice a year, four advertisements in our newsletter and quarterly mentoring sessions that are 40 minutes each with an experienced mentor to help grow your business.</label>
+            </p>
+          </div>
+          <div>
+            <p>
+              <input type="radio" id = "gold" name="membership" value="gold">
+              <label for="gold">Gold ($1000) - If you want it all then our Gold Membership is for you.  It includes everything in the other three memberships and even more!  You get eight free lunches after our quarterly meetings, quarterly social media posts on our channel of your choice, six advertisements in our monthly newsletter.  You also get exclusive placing at the top of our business directory, so your business is seen first before all others.  You get two free tickets to our awards gala held every December that includes a sit down dinner.  And finally you get monthly hour long mentoring sessions with an experienced mentor for you or your team.</label>
+            </p>
+          </div>
+        <button class="submit" id="submit">Submit</button>
+        <p>* - indicates required field</p>
+
+        </fieldset>
+      </div>
+    </form>
+  
+    
+     
+
+    </main>
+    <footer>
+      <p>Website Powered by WLG &copy;2021</p><a href="#" class="inline">Attributions</a>
+    </footer>
+</body>
+</html>
