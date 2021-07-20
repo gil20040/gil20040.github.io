@@ -86,9 +86,9 @@ h2 {
     text-align: left;
     color: #3E517A
 }
-#weekly {
+.weekly {
     border-radius: 8px;
-    width: 90%;
+    width: 80%;
     background-color:#86BBD8;
     border: solid 2px #3E517A;
     margin: auto;
@@ -97,12 +97,13 @@ h2 {
     color: black;
     margin-bottom:12px;
 }
-#weekly h2 {
+.weekly h2 {
     background-color: white;
     border-radius: 8px;
     padding: 10px;
+    text-align: center;
 }
-#weekly ul {
+.weekly ul {
     list-style-type: square;
     padding: 1em;
 }
@@ -122,7 +123,7 @@ footer a {
     float: right;
     font-family: "Open Sans";
 }
-.food section{
+.food section,.ads section {
     border-radius: 8px;
     width: 85%;
     padding: .3em .3em 1em .3em;
@@ -137,6 +138,9 @@ footer a {
     width: 200px;
     height: 150px;
 }
+.ads img { 
+    display: none;
+}
 .buttons {
     display:none;
 }
@@ -147,9 +151,13 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-evenly;
+}#us img {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
 }
 
-.emp{ 
+.emp { 
     border-radius: 8px;
     padding: .3em;
     border: solid 2px #86BBD8;
@@ -227,4 +235,53 @@ fieldset button {
         text-decoration: none;
         text-transform: uppercase;
         border: solid #86BBD8;
+        font-weight: bold;
+}
+#pm {
+    height: 200px;
+}
+.icons {
+    height: 48px;
+    width: 48px;
+}
+#missionvision {
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px #3E517A;
+    border: solid 2px #86BBD8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#darksec {
+    display: grid;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.darkmode {
+    background-color: #3E517A;
+    color: white;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px #86BBD8;
+    padding: 20px;
+    font-family: "Open Sans";
+    margin: auto;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.wdarkmode {
+    background-color: #3E517A;
+    color: white;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px #86BBD8;
+    padding: 20px;
+    font-family: "Open Sans";
+    margin: auto;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
 }

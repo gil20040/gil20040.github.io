@@ -55,20 +55,25 @@
     font-size: 1.2em;
     list-style: none;
 }
-.food {
+.food, .ads {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 90%;
     margin: auto;
 }
-.food section{
+.food section, .ads section{
     min-width: 240px;
+}
+.ads img { 
+display: inline;
+width: 200px;
+height: 150px;
 }
 .buttons {
     display: block;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 6px;
+    text-align: center;
 }
 button:active {
     background-color: #F6AE2D;
@@ -76,10 +81,6 @@ button:active {
 #us {
     max-width: 80%;
     margin: auto;
-}
-#us img {
-    display: block;
-    padding: 1rem;
 }
 .sechd {
     width: 70%;
@@ -111,4 +112,24 @@ button:active {
 }
 #membership {
     grid-column: 1 / 3;
+}
+#darksec {
+    grid-template-columns: 1fr 1fr;
+}
+.darkmode {
+    height: 150px;
+    max-width: 80%;
+    text-justify: center;
+    text-align: center;
+}
+.wdarkmode {
+    height: 80px;
+    max-width: 80%;
+    text-justify: center;
+    text-align: center;
+}
+
+
+
+
 }

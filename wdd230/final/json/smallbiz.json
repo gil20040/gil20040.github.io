@@ -19,7 +19,8 @@
 	 "phone": "801-885-7558",
 	 "address": "3330 N University Ave",
 	 "website": "https://www.blockrestaurantgroup.com/",
-	 "imageurl": "images/block.jpg"
+	 "imageurl": "images/block.jpg", 
+	 "ad": "Recently voted best brunch in Utah Valley, come and see why. Reservations are available at OpenTable."
 	},
 	{
 	 "bizname": "Gurus",
@@ -33,14 +34,16 @@
 	 "phone": "801-850-9113",
 	 "address": "1 E Center St",
 	 "website": "https://goodmovecafe.com/",
-	 "imageurl": "images/goodmove.jpg"
+	 "imageurl": "images/goodmove.jpg",
+	 "ad": "Come enjoy some fun and games with family and friends, discounts for groups on Mondays and Wednesdays."
 	},
 	{
 	 "bizname": "Cubby's",
 	 "phone": "801-919-3023",
 	 "address": "1258 N State St",
 	 "website": "https://cubbys.co/",
-	 "imageurl": "images/cubbys.jpg"
+	 "imageurl": "images/cubbys.jpg",
+	 "ad": "You can't handle the steak, just kidding you can and it's delicious.  Come get some grass fed steak today, did we mention it's delicious?"
 	},
 	{
 	 "bizname": "Hruska's Kolaches",

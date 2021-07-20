@@ -29,7 +29,7 @@
 #fun img{
     width: 370px;
 }
-.food {
+.food, .ads {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 80%;
@@ -48,5 +48,10 @@
 #ctinfo {
     font-size: 1.5rem;
 }
+#darksec {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.darkmode {
+    height: 100px;
 
 }
