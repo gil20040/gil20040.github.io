@@ -28,3 +28,9 @@ function listView() {
     document.getElementsByClassName("foodi")[7].style.display = "none";
     document.getElementsByClassName("foodi")[8].style.display = "none";
 }
+window.onload = function lastmod() {
+    var getdate = document.lastModified;
+    var localdate = getdate.split(' ')[0];
+    console.log(localdate);
+    document.getElementById('lastmoddt').textContent = 'Page Last Updated' + ' ' + localdate;
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body p {
-    font-family: "Open Sans";
+    font-family: "Open Sans","sans-serif";
     color: #3E517A;
 }
 header {
@@ -120,7 +120,7 @@ footer {
 }
 footer p, footer a {
     color: white;
-    font-family: "Open Sans";
+    font-family: "Open Sans","sans-serif";;
 }
 .food section,.ads section {
     border-radius: 8px;
@@ -268,7 +268,7 @@ fieldset button {
     max-width: 80%;
     box-shadow: 5px 5px 10px #86BBD8;
     padding: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans","sans-serif";
     margin: auto;
     font-size: 1.1rem;
     margin-bottom: 15px;
@@ -281,7 +281,7 @@ fieldset button {
     max-width: 80%;
     box-shadow: 5px 5px 10px #86BBD8;
     padding: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans","sans-serif";
     margin: auto;
     font-size: 1.1rem;
     margin-bottom: 15px;
@@ -337,7 +337,7 @@ padding: 20px;
 figcaption {
     background-color: #3E517A;
     color: white;
-    font-family: "Open-sans";
+    font-family: "Open-sans","sans-serif";
 }
 figure { 
     border-radius: 8px;
@@ -362,4 +362,8 @@ header picture #logo {
 #logotitle {
     margin: auto;
     text-align: center;
+}
+#lastmoddt {
+    color: white;
+    font-family: "Open sans","sans-serif";
 }
