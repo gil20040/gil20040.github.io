@@ -31,6 +31,5 @@ function listView() {
 window.onload = function lastmod() {
     var getdate = document.lastModified;
     var localdate = getdate.split(' ')[0];
-    console.log(localdate);
     document.getElementById('lastmoddt').textContent = 'Page Last Updated' + ' ' + localdate;
 }
