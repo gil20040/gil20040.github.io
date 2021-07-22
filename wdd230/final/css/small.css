@@ -116,13 +116,9 @@ h2 {
 footer {
     background-color:#3E517A;
     padding:10px;
+    text-align: center;
 }
-footer p {
-    color: white;
-    margin-left: 5%;
-    display: inline;
-}
-footer a {
+footer p, footer a {
     color: white;
     font-family: "Open Sans";
 }

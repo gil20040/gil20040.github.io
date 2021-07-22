@@ -23,8 +23,6 @@ function getalerts(){
 
     card.append(alerttype);
     card.append(alertdesc);
-    console.log(alerttype);
-    console.log(alertdesc);
 
     document.querySelector('#alerts').append(card);
 
