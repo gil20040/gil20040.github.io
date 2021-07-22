@@ -48,7 +48,7 @@
 #ctinfo {
     font-size: 1.5rem;
 }
-#darksec {
+.darksec {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .darkmode {

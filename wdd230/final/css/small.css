@@ -10,7 +10,6 @@ header {
 header h1 {
     font-family: Anton, Impact;
     text-align: center;
-    border-bottom: 2px solid #3E517A;
     margin-top: 5px;
     margin-bottom: 0px;
     display: inline;
@@ -47,6 +46,9 @@ nav ul li a {
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+nav ul {
+    padding-left: 5px;
 }
 nav a:hover {
 	background-color: #0FFF95;
@@ -114,7 +116,6 @@ h2 {
 footer {
     background-color:#3E517A;
     padding:10px;
-    border-top: 2px solid #3E517A;
 }
 footer p {
     color: white;
@@ -162,7 +163,7 @@ footer a {
     padding: 1rem;
 }
 
-.emp { 
+.emp, #attributions { 
     border-radius: 8px;
     padding: .3em;
     border: solid 2px #86BBD8;
@@ -259,7 +260,7 @@ fieldset button {
     margin-bottom: 20px;
     padding: 20px;
 }
-#darksec {
+.darksec {
     display: grid;
     gap: 20px;
     width: 80%;
