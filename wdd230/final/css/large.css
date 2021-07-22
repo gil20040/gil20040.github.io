@@ -53,5 +53,9 @@
 }
 .darkmode {
     height: 100px;
+}
+.provoimages {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }

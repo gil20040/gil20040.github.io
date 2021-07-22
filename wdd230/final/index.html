@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Provo Chamber of Commerce.  We are here to help you grow your business.">
-    <title>Provo Chamber of Commerce 🛒</title>
+    <title>Provo Chamber of Commerce</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -12,8 +12,14 @@
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/script.js"></script>
     <script defer src="js/ad.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer src="js/alertzz.js"></script>
+    <script defer src="js/lazyload.js"></script>
   </head>
   <body>
+    <aside id = "alerts">
+      <p id = "palert"><a href="#" id="shut" onclick="closealerts()">Close Weather Alerts X</a></p>
+    </aside>
       <header>
         <nav>
             <ul class="navigation">
@@ -25,9 +31,15 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+      <div id ="logotitle"> 
+        <picture>
+          <source srcset = "images/logo-128.png" media = "(min-width: 550px)">
+          <img src="images/logo-64.png" id="logo" alt="hand holding purchase logo">
+      </picture>
         <h1>Provo Chamber Of Commerce</h1>
+      </div>
         <img src="images/craig-merrill-lyisaIv5ERQ-unsplash-smaller.jpg" id="pm" alt="Provo Mountains">
-      </header>
+    </header>
       <main>
       <div id = "missionvision">
         <h2>Our Mission & Vision</h2>
@@ -60,6 +72,44 @@
         </div>
       </div>
       <div class= "ads">
+      </div>
+      <div class="sechd">
+        <h2>Provo is beautiful!</h2>
+      </div>
+      <div class = "provoimages">
+        <figure>
+            <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/andres-haro-FCj1dsWd6rI-unsplash-300-snowycity.jpg" alt="view of Provo">
+            <figcaption>City view</figcaption> 
+        </figure>
+        <figure>
+         <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/aubrey-odom-9Euag2oYI1c-unsplash-300-path.jpg" alt="Quiet hiking path">
+         <figcaption>A quiet path</figcaption> 
+     </figure>
+     <figure>
+         <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/subhasish-mitra-DrZx7tXHC5g-unsplash-300-ictylake.jpg" alt="Icy lake">
+         <figcaption>Icy lake</figcaption> 
+     </figure>
+     <figure>
+         <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/david-wirzba-hZuSXNKCyzE-unsplash-300-waterfall.jpg" alt="waterfall">
+         <figcaption>Waterfall</figcaption> 
+     </figure>
+     <figure>
+         <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/t-m-V-l73g1P-ZQ-unsplash-300-snowysunset.jpg" alt="snowy sunset">
+         <figcaption>Snowy Sunset</figcaption> 
+     </figure>
+     <figure>
+         <img src="https://via.placeholder.com/300x300?text=Placeholder" data-src="images/devin-justesen--1mW9LSw7gY-unsplash-300-hiking.jpg" alt="hiking">
+         <figcaption>Hiking</figcaption> 
+     </figure>
+     </div>
+      <div id="weathernow">
+        <h2>Today's Weather🌡️</h2>
+        <p>Currently: <span id = "current-desc"></span></p>
+        <p>Temperature: <span id = "current-temp"></span>° F</p> 
+        <p>Humidity: <span id = "current-humidity"></span> %</p> 
+      </div>
+      <div id="threedayweather">
+          <h2 id= "topthree">3 Day Forecast</h2>
       </div>
       <div class = "weekly">
         <h2>Weekly Events</h2>

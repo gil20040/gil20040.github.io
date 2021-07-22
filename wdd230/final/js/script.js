@@ -1,6 +1,9 @@
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+function closealerts() {
+    document.getElementById("alerts").style.display = "none";
+}
 function gridView() {
     document.getElementsByClassName("food")[0].style.display = "grid";
     document.getElementsByClassName("foodi")[0].style.display = "inline";

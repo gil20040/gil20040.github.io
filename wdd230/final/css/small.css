@@ -13,6 +13,10 @@ header h1 {
     border-bottom: 2px solid #3E517A;
     margin-top: 5px;
     margin-bottom: 0px;
+    display: inline;
+}
+h3 {
+    font-family: Anton, Impact;
 }
 nav {
     margin: 0;
@@ -151,7 +155,8 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-evenly;
-}#us img {
+}
+#us img {
     width: 200px;
     height: 200px;
     padding: 1rem;
@@ -284,4 +289,79 @@ fieldset button {
     margin: auto;
     font-size: 1.1rem;
     margin-bottom: 15px;
+}
+#weathernow {
+    text-transform: capitalize;
+    border-radius: 8px;
+    width: 85%;
+    padding: .3em .3em 1em .3em;
+    border: solid 2px #3E517A;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+}
+#threedayweather {
+    display: none;
+}
+#alerts {
+    display: none;
+}
+#alerts section {
+border-radius: 8px;
+max-width: 80%;
+box-shadow: 5px 5px 10px #3E517A;
+border: solid 2px #86BBD8;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 20px;
+padding: 20px;
+}
+#shut {
+    background-color: #F6AE2D;
+    color: black;
+    padding: .3em .3em;
+    text-decoration: none;
+    border: solid #86BBD8;
+    font-weight: bold;
+}
+#palert{
+    text-align: right;
+}
+.provoimages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+figcaption {
+    background-color: #3E517A;
+    color: white;
+    font-family: 'Open-sans';
+}
+figure { 
+    border-radius: 8px;
+    padding: 1em;
+    border: solid 2px #86BBD8;
+    background-color: #3E517A;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #3E517A;
+}
+figure img {
+    width: 300px;
+    height: 300px;
+}
+header picture #logo {
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+#logotitle {
+    margin: auto;
+    text-align: center;
 }
