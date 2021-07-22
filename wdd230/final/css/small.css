@@ -124,8 +124,6 @@ footer p {
 }
 footer a {
     color: white;
-    display: inline;
-    float: right;
     font-family: "Open Sans";
 }
 .food section,.ads section {
@@ -340,7 +338,7 @@ padding: 20px;
 figcaption {
     background-color: #3E517A;
     color: white;
-    font-family: 'Open-sans';
+    font-family: "Open-sans";
 }
 figure { 
     border-radius: 8px;
