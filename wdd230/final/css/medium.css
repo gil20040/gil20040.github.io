@@ -123,9 +123,9 @@ button:active {
     text-align: center;
 }
 .wdarkmode {
-    height: 80px;
+    height: 100px;
     max-width: 80%;
-    text-justify: auto;
+    justify-content: center;
     text-align: center;
 }
 #threedayweather {

@@ -8,7 +8,6 @@ fetch(requestURL)
 
   const allbiz = jsonObject['smallbizfood'];
   const mybizads = allbiz.filter(smallbizfood => smallbizfood.bizname == "Block Restaurant" || smallbizfood.bizname == "Good Move Cafe" || smallbizfood.bizname == "Cubby's");
-  console.log(mybizads);
 
   for (let i = 0; i < mybizads.length; i++ ) {
   let card = document.createElement('section');

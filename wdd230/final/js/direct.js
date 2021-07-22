@@ -7,7 +7,6 @@ fetch(requestURL)
 .then(function (jsonObject) {
 
   const foodbiz = jsonObject['smallbizfood'];
-  console.log(foodbiz);
 
   for (let i = 0; i < foodbiz.length; i++ ) {
   let card = document.createElement('section');
