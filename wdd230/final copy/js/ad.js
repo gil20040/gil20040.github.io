@@ -5,6 +5,7 @@ fetch(requestURL)
   return response.json();
 })
 .then(function (jsonObject) {
+  // console.table(jsonObject);  // temporary checking for valid response and data parsing
 
   const allbiz = jsonObject['smallbizfood'];
   const mybizads = allbiz.filter(smallbizfood => smallbizfood.bizname == "Block Restaurant" || smallbizfood.bizname == "Good Move Cafe" || smallbizfood.bizname == "Cubby's");

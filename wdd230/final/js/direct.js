@@ -5,10 +5,8 @@ fetch(requestURL)
   return response.json();
 })
 .then(function (jsonObject) {
-  console.table(jsonObject);  // temporary checking for valid response and data parsing
 
   const foodbiz = jsonObject['smallbizfood'];
-  //const mytowns = towns.filter(towns => towns.name == "Fish Haven" || towns.name == "Soda Springs" || towns.name == "Preston");
   console.log(foodbiz);
 
   for (let i = 0; i < foodbiz.length; i++ ) {

@@ -5,6 +5,7 @@ fetch(forecastURL)
 return response.json();
 })
 .then(function (jsonObject) {
+ //  console.log(jsonObject);  // temporary checking for valid response and data parsing
 
   document.getElementById('current-desc').textContent = jsonObject.current.weather[0].description;   
   document.getElementById('current-temp').textContent = Math.round(jsonObject.current.temp);   

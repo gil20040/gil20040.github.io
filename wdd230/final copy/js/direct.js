@@ -5,12 +5,13 @@ fetch(requestURL)
   return response.json();
 })
 .then(function (jsonObject) {
+  console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-  const allbiz = jsonObject['smallbizfood'];
-  const mybizads = allbiz.filter(smallbizfood => smallbizfood.bizname == "Block Restaurant" || smallbizfood.bizname == "Good Move Cafe" || smallbizfood.bizname == "Cubby's");
-  console.log(mybizads);
+  const foodbiz = jsonObject['smallbizfood'];
+  //const mytowns = towns.filter(towns => towns.name == "Fish Haven" || towns.name == "Soda Springs" || towns.name == "Preston");
+  console.log(foodbiz);
 
-  for (let i = 0; i < mybizads.length; i++ ) {
+  for (let i = 0; i < foodbiz.length; i++ ) {
   let card = document.createElement('section');
 
   let h2 = document.createElement('h2');
@@ -20,21 +21,20 @@ fetch(requestURL)
   let p3 = document.createElement('p');
   let a = document.createElement('a');
   
-  h2.textContent = mybizads[i].bizname;
-  img.setAttribute('src', mybizads[i].imageurl); 
-  img.setAttribute('alt',mybizads[i].bizname);
+  h2.textContent = foodbiz[i].bizname;
+  img.setAttribute('src', foodbiz[i].imageurl); 
+  img.setAttribute('alt',foodbiz[i].bizname);
   img.setAttribute('class','foodi')
-  p.textContent = mybizads[i].phone;
-  p2.textContent = mybizads[i].address;
-  p3.textContent = mybizads[i].ad;
-  a.setAttribute('href',mybizads[i].website);
+  p.textContent = foodbiz[i].phone;
+  p2.textContent = foodbiz[i].address;
+  p3.textContent = foodbiz[i].website;
+  a.setAttribute('href',foodbiz[i].website);
   a.setAttribute('target','_blank');
   a.setAttribute('class','sitelinks');
   a.setAttribute('rel','noopener');
  
 
   card.appendChild(h2);
-  card.appendChild(p3)
   card.appendChild(img);
   card.appendChild(p);
   card.appendChild(p2);
@@ -42,6 +42,6 @@ fetch(requestURL)
   a.appendChild(document.createTextNode("Web Site"));
 
 
-  document.querySelector('div.ads').append(card);
+  document.querySelector('div.food').append(card);
   }
 });
