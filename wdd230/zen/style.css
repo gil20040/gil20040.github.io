@@ -20,7 +20,7 @@ a {
 header {
   background-color: #682b57;
   padding: 1em;
-  grid-column: 0.3333333333;
+  grid-column: 1 / 3;
   margin: 0.1em;
 }
 header h1 {
@@ -41,8 +41,8 @@ header h2 {
 }
 .preamble {
   background-color: #82597a;
-  grid-column: 0.5;
-  grid-row: 0.6666666667;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   margin: 0.1em;
   padding: 1em;
 }
@@ -50,8 +50,8 @@ header h2 {
   font-size: 0.9em;
 }
 .summary {
-  grid-column: 0.6666666667;
-  grid-row: 0.6666666667;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   background-color: #682b57;
   margin: 0.1em;
   font-family: 'Myriad Pro', sans-serif;
@@ -68,16 +68,15 @@ header h2 {
   background-color: #82597a;
   margin: 0.1em;
   padding: 0.8em;
-  grid-column: 0.3333333333;
-  grid-row: 0.5;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
 }
 .participation {
   background-color: #682b57;
   margin: 0.1em;
   padding: 0.8em;
-  grid-column: 0.3333333333;
-  grid-row: 0.6666666667;
-}
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
 .participation:after {
   content: url(https://picsum.photos/300/120?grayscale);
   text-align: center;
@@ -88,20 +87,20 @@ header h2 {
   background-color: #82597a;
   margin: 0.1em;
   padding: 0.8em;
-  grid-column: 0.3333333333;
-  grid-row: 0.75;
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
 }
 .benefits {
   background-color: #682b57;
   margin: 0.1em;
   padding: 0.8em;
-  grid-column: 0.3333333333;
-  grid-row: 0.8;
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
 }
 footer {
   background-color: #82597a;
-  grid-column: 0.3333333333;
-  grid-row: 0.8333333333;
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
   text-align: center;
   padding: 0.5em;
   margin: 0.1em;
