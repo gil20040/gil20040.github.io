@@ -1,0 +1,13 @@
+$color-1: #682b57; // Plum - Action color
+$color-2: #82597a; // Light Plum
+$color-3: #b7b0b6; // Gray
+$color-4: #e6e6e6; // light grey
+$color-5: #ffffff; // white
+
+
+$primary-font: 'Myriad Pro', sans-serif;
+$secondary-font: 'Vogue-regular','Domine', serif;
+
+.page-wrapper {
+    display: grid;
+}
