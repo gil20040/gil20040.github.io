@@ -1113,4 +1113,82 @@ form {
   font-family: 'BYUI Open Sans';
   font-weight: 300;
 }
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'BYUI Open Sans';
+}
+
+.media a {
+  text-decoration: none;
+}
+
+.devotional {
+  text-align: center;
+}
+
+.media-box {
+  border: 1px solid #b4b3b5;
+}
+
+.media-box img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.media-box .text-desc {
+  padding-left: 5px;
+  color: #0076b6;
+}
+
+.resources a:hover, .important-dates a:hover {
+  background-color: #e2e6ea;
+}
+
+.resources h2, .important-dates h2 {
+  background-color: #727272;
+  padding: 7px;
+  padding-left: 15px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.important-dates h2 {
+  background-color: #0076b6;
+}
+
+.resource-links {
+  display: block;
+  background-color: #f8f9fa;
+  color: #0076b6;
+  padding: 7px;
+  padding-left: 15px;
+  border: 1px #b4b3b5 solid;
+}
+
+.resource-links .icon-angle-right {
+  float: right;
+}
+
+.important-dates a {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 8fr;
+      grid-template-columns: 2fr 1fr 8fr;
+  border-bottom: 1px #b4b3b5 solid;
+  padding: 5px;
+  color: black;
+}
+
+.col-1 {
+  font-weight: bold;
+  padding-top: 7px;
+}
+
+.col {
+  padding-top: 7px;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -86,3 +86,71 @@ form {
     font-weight: 300;
   }
 }
+main {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'BYUI Open Sans';
+}
+.media {
+  a {
+    text-decoration: none;
+  }
+}
+.devotional {
+  text-align: center;
+}
+.media-box {
+  border: 1px solid $med-gray;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  .text-desc {
+    padding-left: 5px;
+    color: $link-blue;
+  }
+}
+.resources, .important-dates {
+  a:hover {
+    background-color:#e2e6ea;
+    }
+}
+.resources h2, .important-dates h2 {
+  background-color: $dark-gray;
+  padding: 7px;
+  padding-left: 15px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.important-dates h2 {
+  background-color: $link-blue;
+}
+.resource-links {
+  display: block;
+  background-color: #f8f9fa;
+  color: $link-blue;
+  padding: 7px;
+  padding-left: 15px;
+    border: 1px $med-gray solid;
+  .icon-angle-right {
+    float: right;
+  }
+}
+.important-dates a {
+  display: grid;
+  grid-template-columns: 2fr 1fr 8fr;
+  border-bottom: 1px $med-gray solid;
+  padding: 5px;
+  color: black;
+}
+.col-1 {
+  font-weight: bold;
+  padding-top: 7px;
+}
+.col {
+  padding-top: 7px;
+}
+
+
