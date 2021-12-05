@@ -1,0 +1,116 @@
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+
+// color palette - these colors will be the color swatches of the Colors section
+
+@import 'partials/colors';
+
+// fonts
+$primary-font: 'Myriad Pro', sans-serif;
+$secondary-font: 'Vogue-regular','Domine', serif;
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+body {
+  /* this is the page background */
+  background-color: $color-5;
+}
+
+/* -------------------------------- 
+
+xPatterns
+
+-------------------------------- */
+
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid $color-4;
+  border-radius: 3px;
+  background: $color-5;
+  box-shadow: 0 1px 1px rgba(#000, 0.05);
+  padding: 6px;
+}
+
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+
+@import 'partials/navigation';
+
+.cd-download {
+  /* download button top-right visible on big devices */
+  background-color: lighten($color-3, 10%);
+
+  .no-touch &:hover {
+    background-color: lighten($color-2, 15%);
+  }
+
+  span {
+    /* tooltip */
+    background: $color-1;
+    color: $color-5;
+
+    &::before {
+      /* right arrow color */
+      border-color: $color-1;
+    }
+  }
+}
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+main > h1 {
+  color: $color-2;
+
+  @include MQ(L) {
+    /* title goes into the header on big devices */
+    color: $color-5;
+  }
+}
+
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+@import 'partials/typography';
+
+/* -------------------------------- 
+
+xButtons 
+
+-------------------------------- */
+
+@import 'partials/buttons';
+/* -------------------------------- 
+
+xIcons 
+
+-------------------------------- */
+
+.cd-icons li {
+  /* icons size */
+  width: 32px;
+  height: 32px;
+}
+
+/* -------------------------------- 
+
+xForm 
+
+-------------------------------- */
+
+
+
+@import 'partials/basic-style';
