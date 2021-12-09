@@ -301,15 +301,18 @@ footer a {
     -ms-grid-rows: 33% 45% 22%;
         grid-template-rows: 33% 45% 22%;
   }
+  header {
+    padding-top: .1em;
+  }
   header h1 {
     text-align: center;
   }
   header h1:before {
-    content: url(https://picsum.photos/250/140?grayscale);
+    content: url(assets/branding/modernLogoLarge3.jpg);
     padding-bottom: 1em;
   }
   .preamble p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .summary {
     -ms-grid-column: 2;
@@ -320,7 +323,7 @@ footer a {
     grid-row: 2 / 4;
   }
   .summary p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .main.supporting {
     -ms-grid-columns: (1fr)[6];
@@ -335,7 +338,10 @@ footer a {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
-    font-size: 1.2em;
+  }
+  .participation p {
+    font-size: 1.1em;
+    padding-bottom: 10px;
   }
   .participation:after {
     content: url(https://picsum.photos/300/150?grayscale);
