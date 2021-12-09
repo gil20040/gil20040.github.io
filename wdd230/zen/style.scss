@@ -232,7 +232,6 @@ body {
     margin: .5em;
     }
     margin-bottom: 9px;
-    }
     align-content: center;
   }
 
@@ -277,6 +276,8 @@ body {
    .participation:after {
   content: url(https://picsum.photos/300/150?grayscale);
      text-align: left;
+     margin-top: 75px;
+     margin-left: 50px;
     }
     .explanation {
       grid-column: 5 / 7;
@@ -386,7 +387,7 @@ body {
     
     
     }
-
+  }
   /*
 @media screen and (min-width: $medium) {
 
