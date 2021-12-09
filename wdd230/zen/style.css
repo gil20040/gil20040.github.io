@@ -283,16 +283,16 @@ footer a {
   footer {
     margin: .1em;
     margin-bottom: 9px;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   footer a {
     padding: .3em;
     margin: .5em;
   }
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) and (min-width: 800px) {
   .intro {
     display: -ms-grid;
     display: grid;
@@ -346,6 +346,8 @@ footer a {
   .participation:after {
     content: url(https://picsum.photos/300/150?grayscale);
     text-align: left;
+    margin-top: 75px;
+    margin-left: 50px;
   }
   .explanation {
     -ms-grid-column: 5;
@@ -382,7 +384,7 @@ footer a {
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 600px) and (min-width: 960px) {
   .page-wrapper {
     display: -ms-grid;
     display: grid;
