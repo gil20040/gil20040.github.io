@@ -379,7 +379,8 @@ footer a {
   }
 }
 
-/*
+@media only screen and (min-width: 450px) {
+  /*
   @media only screen and (min-width: 800px) {
   .intro {
     display: grid;
@@ -447,7 +448,7 @@ footer a {
   }
 }
 */
-/*
+  /*
 @media only screen and (min-width: 960px) {
 
     .page-wrapper {
@@ -585,4 +586,5 @@ footer a {
 
 }
 */
+}
 /*# sourceMappingURL=style.css.map */
